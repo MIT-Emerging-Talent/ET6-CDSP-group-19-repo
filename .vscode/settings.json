@@ -122,5 +122,6 @@
       "source.fixAll.ruff": "explicit",
       "source.organizeImports.ruff": "explicit"
     }
-  }
+  },
+  "cSpell.words": ["Amro", "Azza", "Banu", "Elshikh", "Gennadii", "Shahroz"]
 }

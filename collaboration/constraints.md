@@ -35,6 +35,8 @@ real-time coordination difficult.
 
 ---
 
+## Milestone 0
+
 ## ⚙️ Internal Involuntary Constraints
 
 These are constraints from within the team that are beyond individual control:
@@ -64,3 +66,59 @@ technical and collaborative skills.
 an opportunity to grow.
 
 ---
+
+## Milestone 1
+
+### 🧍‍♂️ Individual Constraints
+
+#### Constraints (Banu)
+
+- ⏳ **Time limitations**:
+We have only two weeks to complete this milestone,
+and progress is further challenged by differing time zones
+and personal commitments that make synchronous collaboration difficult.
+- 📘 **Limited knowledge and no prior experience**:
+I have no prior experience in data science research,
+which makes it harder to adapt to the process and slows down decision-making.
+- 🧠 **Unfamiliarity with domain-specific thinking**:
+Coming from a different academic background,
+I find it challenging to approach problems using a data-driven mindset,
+especially when it comes to identifying what makes a question suitable for research.
+
+#### Constraints (Gennadii)
+
+- ⏱️ **Time management**:
+It’s been extremely challenging to fully commit to the project
+while juggling other responsibilities.
+- 🤝 **Collaboration**:
+Team building can be difficult,
+especially when working with people from different backgrounds and perspectives.
+- 🧩 **Sharing responsibilities**:
+Delegating tasks and ensuring balance within the team is
+something I’m still working on.
+
+#### Constraints (Shahroz)
+
+- 🕒 **Job timing conflicts**:
+My work hours often overlap with team meetings,
+making it difficult to attend live collaboration sessions.
+- 🌍 **Time zone differences**:Team members are spread across
+multiple time zones, causing challenges in scheduling synchronous work.
+- 📅 **Limited weekend availability**:
+Although weekends are my main opportunity to focus,
+personal commitments limit their flexibility.
+
+#### Constraints (Elshikh-Amro)
+
+- 📚 **Limited knowledge of the topics**
+- ⏰ **Time management**
+- 📌 **Divide the tasks**
+
+#### Constraints (Azza)
+
+- 📖 **Limited Background Knowledge**:
+I have limited prior knowledge or experience regarding the specific problem area.
+- 📊 **Time Management Challenges**:
+It takes time to understand the project requirements,
+align on goals, and brainstorm collectively,
+which can affect the overall workflow and productivity.
