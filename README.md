@@ -57,23 +57,7 @@ structures, and underlying mental models, check out the full overview:
 affect access to legal representation and outcomes for immigrant juveniles
 seeking protection?"***
 
-### Context & Constraints
-
-- **Domain:** U.S. immigration law and policy, focused on juveniles (minors) seeking
-legal protection (e.g., asylum, Special Immigrant Juvenile Status).
-
-- **Realities:** Immigration policy is dynamic and politically influenced; juvenile
-immigrants face complex barriers navigating the legal system; access to legal
-counsel is crucial for fair outcomes.
-
-- **Constraints:**
-  - **Data Availability:** Data on representation and case outcomes may be fragmented
-  (court records, NGO data, government statistics). Policy changes may not be
-  immediately or transparently reflected in public data.  
-  - **Ethical/Legal:** Privacy concerns for minors; potential bias in available datasets.
-  - **Temporal/Geographical Scope:** Defining the appropriate time window may be
-  required. The study can be nationwide or limited to areas with sufficient or
-  high-priority data.
+For full context and research objectives: [0_domain_study](0_domain_study/README.md)
 
 ---
 
@@ -111,7 +95,7 @@ We will model policy change data by:
 - Representing this information as structured descriptive data
 (e.g., a table of policy changes with dates and impact descriptions).
 
-👉 We will also create a separate document summarizing the policiesthat have
+👉 We will also create a separate document summarizing the policies that have
 changed, their role in protecting juveniles, and how the changes affect them.
 
 ### ✅ Modeling Impact on Legal Representation and Case Outcomes  
@@ -128,7 +112,8 @@ before and after each policy change.
 
   ⚠ **Limitation in this approach:**  
 Comparing deportation percentages alone doesn’t isolate the effect of legal
-representation, as other factors may influence outcomes.
+representation, as other factors like case complexity and selection bias may
+influence outcomes.
 
   👉 To address this, we will compare:
 
@@ -139,16 +124,33 @@ before vs after the policy change.
 We will also explore other possible factors, such as **language barriers**,
 where data allows.
 
-## Possible Flaws or Limitations  
+### 🧱 Possible Flaws or Limitations  
 
 - **Public datasets may not always be complete:** Some cases might have
 missing values (e.g., no outcome listed) or inconsistently reported fields
 (e.g., legal aid marked differently across courts).
 This could reduce the reliability or comparability of some features.
+
 - **Generalization:** Not every case or region is the same,
 but our model looks at the system broadly.
+
 - **No direct feedback from affected youth:** Our insights are based
 on secondhand reports and research, not lived experiences.
+
+- **Causation vs. correlation:** Our analysis may identify associations
+between policy changes and outcomes, but cannot definitively establish
+that policy changes directly caused the observed differences, as other
+factors may have changed simultaneously (e.g. socioeconomic conditions in origin
+countries, or shifts in legal aid funding).
+
+- **Selection bias in legal representation:** Juveniles who obtain legal
+representation may systematically differ from those who don't (e.g.,
+less/more complex cases, worse/better economic resources, living in rural or urban
+areas), which could confound our analysis of representation effects.
+
+- **Time lag effects:** Policy changes may take months to fully implement
+and show measurable effects. Our before/after comparison approach may
+not capture delayed impacts or gradual implementation phases.
 
 ---
 
