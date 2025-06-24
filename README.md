@@ -77,6 +77,81 @@ counsel is crucial for fair outcomes.
 
 ---
 
+## Non-Technical Explanation of Our Domain Model  
+
+Our domain model aims to translate the real-world system of immigration policy,
+legal representation, and juvenile case outcomes into data we can analyze.
+Below is how we chose to model the data and what limitations
+we recognize in this approach.
+
+### ✅ Features We Will Collect for Each Case  
+
+We will represent each case using the following features:
+
+- **Case ID**
+- **Date of filing / decision**
+- **Case duration** (derived from filing and decision dates)
+- **Interpreter need** (yes/no) — *if available*
+- **Age of juvenile**
+- **Country of origin**
+- **Type of case** (e.g., asylum, deportation)
+- **Legal representation status** (yes/no)
+- **Outcome** (e.g., granted, denied, closed)
+- **Court location / region**
+- **Policy period** (before/after specific policy X)
+
+### ✅ Policy Changes Modeling  
+
+We will model policy change data by:
+
+- Identifying relevant policy changes connected to juvenile immigration cases.
+- Describing what exactly changed in these policies.
+- Explaining how the changes affect juveniles.
+- Recording the date of each change.
+- Representing this information as structured descriptive data
+(e.g., a table of policy changes with dates and impact descriptions).
+
+👉 We will also create a separate document summarizing the policiesthat have
+changed, their role in protecting juveniles, and how the changes affect them.
+
+### ✅ Modeling Impact on Legal Representation and Case Outcomes  
+
+- We will collect and compare the **percentage of legally represented cases**
+before and after policy change.
+
+  👉 To keep our model practical and manageable:
+**Legal representation** will be modeled as a binary **yes/no** variable.
+We will not differentiate types of representation (e.g., NGO, private).
+
+- We will collect and compare the **percentage of deportation outcomes**
+before and after each policy change.
+
+  ⚠ **Limitation in this approach:**  
+Comparing deportation percentages alone doesn’t isolate the effect of legal
+representation, as other factors may influence outcomes.
+
+  👉 To address this, we will compare:
+
+- The **deportation rate in legally represented cases**
+before vs after the policy change.
+- The **deportation rate in unrepresented cases** before vs after the policy change.
+
+We will also explore other possible factors, such as **language barriers**,
+where data allows.
+
+## Possible Flaws or Limitations  
+
+- **Public datasets may not always be complete:** Some cases might have
+missing values (e.g., no outcome listed) or inconsistently reported fields
+(e.g., legal aid marked differently across courts).
+This could reduce the reliability or comparability of some features.
+- **Generalization:** Not every case or region is the same,
+but our model looks at the system broadly.
+- **No direct feedback from affected youth:** Our insights are based
+on secondhand reports and research, not lived experiences.
+
+---
+
 ## Data
 
 ### Dataset Source
