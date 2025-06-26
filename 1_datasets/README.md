@@ -41,3 +41,23 @@ The primary tables for this project are `tbl_JuvenileHistory` and `tbl_Case`.
 | `idnCase`            | Foreign key to `tbl_Case` (`IDNCASE`)                  |
 | `idnProceeding`      | Foreign key to `tbl_Proceeding`                        |
 | `idnJuvenile`        | Foreign key to `tblLookup_Juvenile` |
+
+---
+
+### Key Fields in `tbl_Case`
+
+| Field Name           | Description                                            |
+|----------------------|--------------------------------------------------------|
+| `IDNCASE`            | Primary key for `tbl_Case`                             |
+| `NAT`                | Nationality code of the individual (lookup: country)   |
+| `LANG`               | Primary language code (lookup: language)               |
+| `CUSTODY`            | Custody status code (lookup: custody type)             |
+| `CASE_TYPE`          | Type of immigration case (lookup: case type)           |
+| `LATEST_HEARING`     | Date of the latest hearing                             |
+| `LATEST_TIME`        | Time of the latest hearing                             |
+| `LATEST_CAL_TYPE`    | Type of hearing: `"M"` (master) or `"I"` (individual)  |
+| `DATE_OF_ENTRY`      | Date the individual entered the U.S.                   |
+| `GENDER`             | Gender code (typically `"M"` or `"F"`)                 |
+| `DATE_DETAINED`      | Date the individual was detained                       |
+| `DATE_RELEASED`      | Date of release from detention                         |
+| `DETENTION_DATE`     | Date the individual entered current detention facility |
