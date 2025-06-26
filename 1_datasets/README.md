@@ -30,3 +30,14 @@ These tables form a relational schema, where:
 ## Key Tables and Fields
 
 The primary tables for this project are `tbl_JuvenileHistory` and `tbl_Case`.
+
+---
+
+### Key Fields in `tbl_JuvenileHistory`
+
+| Field Name         | Description                                              |
+|--------------------|----------------------------------------------------------|
+| `idnJuvenileHistory` | Primary key for `tbl_JuvenileHistory`                  |
+| `idnCase`            | Foreign key to `tbl_Case` (`IDNCASE`)                  |
+| `idnProceeding`      | Foreign key to `tbl_Proceeding`                        |
+| `idnJuvenile`        | Foreign key to `tblLookup_Juvenile` |
