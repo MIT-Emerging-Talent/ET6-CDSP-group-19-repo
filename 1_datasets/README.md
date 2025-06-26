@@ -69,3 +69,27 @@ this project focuses specifically on juvenile cases.
 For this reason, our analysis begins with the tbl_JuvenileHistory table,
 which contains one row per juvenile and serves as the entry point for linking
 to other case-related tables.
+
+## Possible Flaws and Limitations
+
+- **Incomplete records**: Some fields or entire entries are missing, especially
+  in earlier years.
+
+- **Evolving structure**: Code meanings and field usage have changed over time.
+  Some fields are marked as "Legacy" and may no longer be consistent.
+
+- **Duplicates**: Individuals may appear in multiple rows or be involved in
+  multiple cases, which requires careful handling during analysis.
+
+- **Ambiguous codes**: Some lookup tables contain overlapping or unclear labels,
+  making interpretation difficult without external documentation.
+
+- **Long case durations**: Immigration cases can span multiple years and
+  presidential administrations, which may affect legal context and outcomes.
+
+- **Misleading columns**: Some fields (e.g., `DATCREATEDON`, `DATMODIFIEDON` in
+  `tbl_JuvenileHistory`) do not reflect the actual dates or information they are
+  supposed to provide.
+
+- **Outdated snapshot**: The dataset has not been updated since March 2025.
+  This is relevant for our project, which aims to analyze recent policy changes.
