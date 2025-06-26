@@ -12,3 +12,17 @@ but it can be accessed directly through the following link:
 [Google Drive Folder](https://drive.google.com/drive/folders/1JG-012KL7qboQgenAWe7kLK5-pohHbKq?usp=share_link)
 
 > This version reflects the latest public release as of **March 2025**.
+
+## Structure
+
+The dataset is composed of 97 tables (.csv) in total:
+
+- 19 main tables containing case-level information.
+- 78 lookup tables providing reference values for codes used in the main tables.
+
+These tables form a relational schema, where:
+
+- Each table has a primary key and may use foreign keys to reference others.
+- Code fields in the main tables act as foreign keys to lookup tables, mapping  
+  short codes to full descriptions.
+- Tables can be joined on shared keys to follow a case through its full lifecycle.
