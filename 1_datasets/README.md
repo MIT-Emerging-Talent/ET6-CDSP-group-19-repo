@@ -26,3 +26,7 @@ These tables form a relational schema, where:
 - Code fields in the main tables act as foreign keys to lookup tables, mapping  
   short codes to full descriptions.
 - Tables can be joined on shared keys to follow a case through its full lifecycle.
+
+## Key Tables and Fields
+
+The primary tables for this project are `tbl_JuvenileHistory` and `tbl_Case`.
