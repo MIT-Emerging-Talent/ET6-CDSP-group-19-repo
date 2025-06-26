@@ -93,3 +93,30 @@ to other case-related tables.
 
 - **Outdated snapshot**: The dataset has not been updated since March 2025.
   This is relevant for our project, which aims to analyze recent policy changes.
+
+## Reproducibility
+
+To recreate the dataset and prepare it for analysis:
+
+1. **Download raw data**  
+   All 97 .csv files are available from the [EOIR Case Data page on Data.gov]  
+   (<https://catalog.data.gov/dataset/eoir-case-data>).
+
+2. **Use organized structure**  
+   The data is already organized into 19 main tables and 78 lookup tables.  
+   Lookup tables are stored in the `Lookup` folder.
+
+3. **Standardize formats**  
+   Clean missing values, standardize date formats, and ensure consistent data  
+   types (e.g., string or categorical for code fields).
+
+4. **Join tables**  
+   Use key fields to combine main tables. Use code fields to join with lookup  
+   tables and decode categorical values.
+
+5. **Filter for project scope**  
+   Start with `tbl_JuvenileHistory` to focus on juvenile cases. Join with  
+   `tbl_Case` and other relevant tables to build case timelines.
+
+All notebooks used to clean and prepare data are located in the  
+`2_data_preparation/notebooks` directory of this repository.
