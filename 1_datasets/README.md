@@ -61,3 +61,11 @@ The primary tables for this project are `tbl_JuvenileHistory` and `tbl_Case`.
 | `DATE_DETAINED`      | Date the individual was detained                       |
 | `DATE_RELEASED`      | Date of release from detention                         |
 | `DETENTION_DATE`     | Date the individual entered current detention facility |
+
+## Project Focus
+
+Although the dataset contains a broad range of immigration court records,
+this project focuses specifically on juvenile cases.
+For this reason, our analysis begins with the tbl_JuvenileHistory table,
+which contains one row per juvenile and serves as the entry point for linking
+to other case-related tables.
