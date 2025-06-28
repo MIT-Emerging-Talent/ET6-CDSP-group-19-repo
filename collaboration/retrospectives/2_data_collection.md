@@ -199,4 +199,3 @@ from working together so far.
 - Working to become more active in team discussions moving forward
 - Improved at reviewing discussions and sharing feedback, even when not fully
   present in meetings
-
