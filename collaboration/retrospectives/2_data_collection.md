@@ -199,3 +199,25 @@ from working together so far.
 - Working to become more active in team discussions moving forward
 - Improved at reviewing discussions and sharing feedback, even when not fully
   present in meetings
+
+### Azza Omer
+
+#### Contributions
+
+- Participated regularly in team meetings.
+- Updated the learning goals and constraints files.
+- Added features that complemented the ones provided by teammates, which were
+  important information for a problem.
+- Searched for relevant articles and research papers.
+
+#### Challenges
+
+- Found it challenging to read and review more articles due to family-related
+  circumstances.
+
+#### Progress
+
+- Gained a clearer understanding of the milestone requirements.
+- Got better at collaborating and communicating with the team.
+- Improved my knowledge of how to collect and structure database from different
+  sources and tables.
