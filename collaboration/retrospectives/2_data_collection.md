@@ -155,3 +155,48 @@ from working together so far.
 - Improved my skills in organizing and reviewing research materials from multiple
   sources
 - Better understood how to balance individual work with team collaboration
+
+### Gennadii Ershov
+
+#### Contributions
+
+- Attended team meetings regularly  
+- Created the README file documenting the source dataset  
+- Built a Jupyter notebook to document the cleaning and formatting process  
+- Researched external resources to better understand the dataset  
+
+#### Challenges
+
+- Very limited availability due to other commitments  
+- Data cleaning has been extremely time-consuming, which is why it's still
+  in progress  
+
+#### Progress
+
+- Developed a more thoughtful and structured approach to data analysis  
+- Improved collaboration and teamwork skills  
+
+### Muhammad Shahroz
+
+#### Contributions
+
+- Reviewed team notes and key features for the dataset
+- Provided input on possible data limitations and flaws
+- Kept up with major decisions and progress via GitHub and team updates
+- Flagged a few edge cases and shared suggestions on feature definitions
+
+#### Challenges
+
+- Struggled to attend meetings regularly due to other commitments
+- Communication and teamwork have been a bit challenging for me this milestone
+- Still getting up to speed on the data sources and technical details
+- Finding it hard to balance project work with other responsibilities
+
+#### Progress
+
+- Gained a better understanding of the main project goals and dataset structure
+- Learned more about the importance of consistent feature definitions and data quality
+- Working to become more active in team discussions moving forward
+- Improved at reviewing discussions and sharing feedback, even when not fully
+  present in meetings
+
