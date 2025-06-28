@@ -81,35 +81,40 @@ counsel is crucial for fair outcomes.
 
 ### Dataset Source
 
-**Title:** [Name of dataset or link to source]  
-Provide a short description of when and how the data was collected, and why it’s
-relevant to your project.
+**EOIR Case Data:** [Data.gov](https://catalog.data.gov/dataset/eoir-case-data)
+
+The Executive Office for Immigration Review (EOIR) releases monthly case level  
+immigration court data through the U.S. Department of Justice. The dataset is  
+collected and updated regularly via official government systems and includes  
+information on individual court proceedings.
 
 Files included in this dataset (if applicable):
 
-- `[filename1.extension]` – brief description
-- `[filename2.extension]` – brief description
-
-Specify which file(s) you chose to focus on and why.
+- `[Schema_Related]` – brief description
+- `[Lookup]` – brief description
 
 ### Dataset Context
 
-Explain any background or contextual information that helps the reader understand:
-
 - The purpose of the dataset
+
+The dataset was created to support analysis of how changes in U.S. immigration
+policy under the current administration have impacted:
+
+Access to legal representation for immigrant juveniles
+
+Case outcomes such as asylum granted, denied, or terminated
+
 - The population or scenario it represents
-- Any known limitations or biases
+  The dataset represents juvenile immigrants (typically unaccompanied children)
+  who were:
 
-### Selected Columns
+Involved in U.S. immigration court proceedings between FY 2020 and FY 2025
 
-| Column Name             | Description                                      |
-|-------------------------|--------------------------------------------------|
-| `[column_1]`            | [Brief explanation of what this column means]    |
-| `[column_2]`            | [Brief explanation of what this column means]    |
-| `[column_3]`            | [Brief explanation of what this column means]    |
-| …                       | …                                                |
+Identified as being under 18 years old at the time of case filing
 
----
+Facing deportation, seeking asylum, or applying for other forms of immigration relief
+
+### For more details [1_datasets](1_datasets/README.md)
 
 ## Exploratory Data Analysis (EDA)
 
