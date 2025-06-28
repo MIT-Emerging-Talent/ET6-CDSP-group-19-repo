@@ -1,3 +1,10 @@
+<!-- markdownlint-disable MD024 -->
+<!--
+  MD024 is disabled here because we intentionally repeat headers like 
+  "Contributions", "Challenges" and "Progress" in each member's individual
+  retrospectives. These duplicates are purposeful, so ignoring
+  this rule prevents unnecessary lint warnings for valid cases.
+-->
 # Milestone 2: Data Collection
 
 **Milestone dates:** June 17 – June 30
@@ -125,4 +132,26 @@ from working together so far.
   sources
 - Better understood how to balance individual work with team collaboration
 
-### Member 2
+### Amro Mohamed
+
+#### Contributions
+
+- Participated regularly in team meetings
+- Identified features that should be in the Dataset
+- discussed Flaws and limits to test the dataset
+- Researched articles and Papers for potential data sources
+
+#### Challenges  
+
+- Reading through Papers and articles that is relevant to our research objectives
+- Struggled to maintain steady progress throughout the milestone while managing
+  other commitments
+
+#### Progress
+
+- Gained better understanding of how complex data collection can be in practice
+- Learned about the importance of setting the features that we need before searching
+  for data
+- Improved my skills in organizing and reviewing research materials from multiple
+  sources
+- Better understood how to balance individual work with team collaboration
