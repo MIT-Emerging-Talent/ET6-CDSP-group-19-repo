@@ -130,6 +130,29 @@ fairness, and legal voice, regardless of immigration status.***
 
 ## Research Question
 
-“How do changes in U.S. immigration policy under the current administration
+**“How do changes in U.S. immigration policy under the current administration
 affect access to legal representation and outcomes
-for immigrant juveniles seeking protection?”
+for immigrant juveniles seeking protection?”**
+
+## Research Objectives  
+
+Our objectives depend on data availability and are structured
+to ensure we can meaningfully answer the research question:  
+
+### If sufficient data exists for direct comparison
+
+- To identify the main policy changes affecting immigrant juveniles
+since January 20, 2025.  
+- To analyze the impact of these changes on the availability
+and accessibility of legal support for juveniles.  
+- To assess and compare the percentage of deportation cases
+involving immigrant juveniles before and after these policy changes.  
+
+### If sufficient data does not exist for direct comparison
+
+- To identify the main policy changes affecting immigrant juveniles
+since January 20, 2025.
+- To investigate whether and how legal representation generally
+affects juvenile case outcomes, based on prior data (before those policy changes).
+- To predict the potential effect of these policy changes
+on future case outcomes for immigrant juveniles.  
