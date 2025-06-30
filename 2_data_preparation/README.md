@@ -41,3 +41,14 @@ the cleaning process followed an incremental and memory-efficient approach:
    The focus remained on validating the structure and quality of
    the cleaned data (e.g., shape, missing values, duplicates),
    not on exploratory data analysis.
+
+## How to Use
+
+1. Place the raw files in the working directory.
+2. Run the notebooks in the [`notebooks`](./notebooks) folder.
+3. Cleaned datasets will be generated and saved to disk (or cloud).
+
+## Notes
+
+- Cleaned CSVs are **not versioned** in this repo due to size.
+- For downstream analysis, download the files from the cloud folder above.
