@@ -134,12 +134,31 @@ fairness, and legal voice, regardless of immigration status.***
 affect access to legal representation and outcomes
 for immigrant juveniles seeking protection?”**
 
-## Research Objectives  
+### Context & Constraints
+
+**Domain:** U.S. immigration law and policy, focused on juveniles (minors) seeking
+legal protection (e.g., asylum, Special Immigrant Juvenile Status).
+
+**Realities:** Immigration policy is dynamic and politically influenced; juvenile
+immigrants face complex barriers navigating the legal system; access to legal counsel
+is crucial for fair outcomes.
+
+#### Constraints
+
+- **Data Availability:** Data on representation and case outcomes may be fragmented
+(court records, NGO data, government statistics). Policy changes may not be immediately
+or transparently reflected in public data.
+- **Ethical/Legal:** Privacy concerns for minors; potential bias in available datasets.
+- **Temporal/Geographical Scope:** Defining the appropriate time window may be required.
+  The study can be nationwide or limited to areas with sufficient or high-priority
+  data.
+
+### Research Objectives  
 
 Our objectives depend on data availability and are structured
 to ensure we can meaningfully answer the research question:  
 
-### If sufficient data exists for direct comparison
+#### ➡️ If sufficient data exists for direct comparison
 
 - To identify the main policy changes affecting immigrant juveniles
 since January 20, 2025.  
@@ -148,7 +167,7 @@ and accessibility of legal support for juveniles.
 - To assess and compare the percentage of deportation cases
 involving immigrant juveniles before and after these policy changes.  
 
-### If sufficient data does not exist for direct comparison
+#### ➡️ If sufficient data does not exist for direct comparison
 
 - To identify the main policy changes affecting immigrant juveniles
 since January 20, 2025.
