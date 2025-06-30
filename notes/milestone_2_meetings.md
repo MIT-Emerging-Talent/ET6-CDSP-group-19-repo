@@ -62,3 +62,28 @@
   planned in Meeting 6.
 - Remaining deliverables will be shared among team members asynchronously,
   based on individual availabilty.
+
+  ---
+
+## Meeting 8 – June 30, 2025
+  
+**Time:** 12:00–12:30 PM ET  
+**Attendees:** Gennadii, Ammar, Amro, Azza, Banu  
+**Facilitator:** Gennadii
+
+### Agenda Summary
+
+- Discussed how to populate the `data_exploration` folder and align on
+  expectations for exploratory analysis.
+- Reviewed milestone deliverables and upcoming deadlines.
+- Shared ideas to build more experience working with the large dataset.
+- Agreed to schedule regular meetings and live coding sessions.
+- Considered options for hosting the dataset outside the repository.
+
+### Action Items
+
+- Schedule regular meetings and live coding events for the next milestone.
+- Add a short exploratory data analysis (EDA) to the `data_exploration` folder.
+- Arrange public hosting for the large dataset on an external platform.
+- Create a Git tag before completing the milestone.
+- Review remaining pull requests and issues.
