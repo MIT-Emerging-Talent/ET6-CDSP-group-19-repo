@@ -96,3 +96,52 @@ Milestone 1: Problem Identification
 2.Formulating Research Question
 
 3.Applying FRESCO Methodology
+
+---
+
+## Milestone 2 📊📋
+
+### Gennadii Ershov
+
+- Build foundational knowledge in immigration law
+- Develop best practices for working with large datasets
+
+### Banu Ozyilmaz
+
+- I would like to improve how I document technical work.
+- I hope to learn how to break down big research questions into
+clear data steps, so I can become familiar with which data to
+collect and how to prepare it.
+- I want to focus on steady progress instead of perfection,
+and remind myself that growth happens when I face challenges.
+
+### Muhammad Shahroz
+
+- Get more active in team discussions and improve my communication.
+- Learn the basics of working with large, real-world datasets.
+- Get better at breaking down project tasks so I can contribute more consistently.
+- Understand the core project workflow and how my work fits into the team’s goals.
+
+### Amro
+
+- Understand how to define a data collection strategy aligned with the research question.
+- Identify relevant and credible data sources (e.g., TRAC, EOIR, news reports).
+- Practice extracting structured data from semi-structured or
+unstructured formats (e.g., articles, CSVs).
+- Learn how to document data provenance—where your data came from,
+how it was processed, and any assumptions made.
+- Apply data cleaning techniques (handling missing data,
+reformatting, filtering by age).
+- Learn how to collaborate in a team when collecting and verifying data.
+
+### Azza Omer
+
+- Learn how to turn big research questions into smaller,
+manageable steps to figure out what data is needed and how to prepare it.
+- Gain a basic understanding of immigration law to help make
+sense of the data.
+- Practice turning messy or unstructured data
+(like articles or raw CSV files)into clean, organized data you can work with.
+- Understand how to track where data comes from and how it was processed.
+- cleaning data—like filling in missing values,
+reformatting columns, or filtering based on age.
