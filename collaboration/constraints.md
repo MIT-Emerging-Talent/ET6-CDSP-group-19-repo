@@ -171,10 +171,11 @@ representation may not be directly included).
 
 ## Azza Omer
 
--worked with a dataset this big before, so it's harder to manage and understand.
+- I haven’t worked with a dataset this large before, so it’s
+been challenging to manage and understand.
 
--I don’t have much knowledge about immigration justice,
+- I don’t have much knowledge about immigration justice,
 which makes it tough to make sense of the data and spot patterns.
 
--It's technically challenging to handle large CSV files—they
+- It's technically challenging to handle large CSV files—they
 can be slow or difficult to work with.
