@@ -122,3 +122,59 @@ I have limited prior knowledge or experience regarding the specific problem area
 It takes time to understand the project requirements,
 align on goals, and brainstorm collectively,
 which can affect the overall workflow and productivity.
+
+---
+
+## Milestone 2
+
+## Individual Constraints
+
+---
+
+## Gennadii Ershov
+
+- Extremely limited time availability over the past few weeks.
+- No prior experience working with such a large dataset.
+- Limited background in immigration justice,
+which makes interpreting features and
+trends more challenging.
+
+## Banu Ozyilmaz
+
+- I don’t have much experience with data processing
+tools and technical workflows, which could make some tasks take longer.
+- I have personal commitments that might affect
+when I am available during some weeks.
+- I need to balance learning new skills with meeting
+the deadlines of this project.
+- I often spend extra time trying to fully understand concepts
+, which sometimes slows down my progress.
+
+## Muhammad Shahroz
+
+- Haven’t been able to attend many team meetings due to
+scheduling conflicts and other commitments.
+- Still catching up on the technical details and project workflow.
+- Communication with the team has been a challenge for me this milestone.
+- Not fully comfortable yet with large datasets or immigration data.
+
+## Amro
+
+- Limited access to official court-level datasets,
+especially recent ones for FY 2025.
+- Missing or incomplete variables (e.g., age or legal
+representation may not be directly included).
+- Inconsistency in how juveniles are flagged in EOIR data over time.
+- Potential bias in secondary sources (e.g., media reports or advocacy articles).
+- Time constraints to complete the milestone before a deadline.
+- Technical barriers like managing large CSVs.
+
+## Azza Omer
+
+-worked with a dataset this big before, so it's harder to manage and understand.
+
+-I don’t have much knowledge about immigration justice,
+which makes it tough to make sense of the data and spot patterns.
+
+-It's technically challenging to handle large CSV files—they
+can be slow or difficult to work with.
