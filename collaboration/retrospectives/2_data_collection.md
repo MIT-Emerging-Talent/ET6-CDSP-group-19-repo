@@ -221,3 +221,27 @@ from working together so far.
 - Got better at collaborating and communicating with the team.
 - Improved my knowledge of how to collect and structure database from different
   sources and tables.
+
+### Ammar Ibrahim
+
+#### Contributions
+
+- Created a Milestone plan and timeline.
+- added the final research objectives based on team discussions
+to the domain study file.
+- Prepared Deliverable One: Non-technical explanation of our domain model.
+- Presented the milestone check-in.
+- Attended all team meetings and reviewed some PRs.
+
+#### Challenges
+
+- Was Unavailable during the last 3–4 days due to personal commitments.
+- Joined the data search late (after completing Deliverable One),
+so most sources were already found.
+
+#### Progress
+
+- Learned the importance of teamwork and task division.
+- Studied pandas from various resources to prepare for data processing.
+- Gained confidence in public speaking during the milestone check-in
+(despite forgetting to stop sharing my screen afterward!).
