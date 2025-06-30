@@ -39,7 +39,7 @@ and ensure equitable participation.
 
 - **Banu Özyılmaz**
 
-1. Be a Supportive Team Member 
+1. Be a Supportive Team Member
 
 2. Learn how to work well with people from different backgrounds,
 being open to new ideas and perspectives.
