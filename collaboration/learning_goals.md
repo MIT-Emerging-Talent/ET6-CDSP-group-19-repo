@@ -10,92 +10,93 @@ skills for effective data science project execution."
 
 ## Individual
 
-Milestone 0: Cross-Cultural Collaboration
+### Milestone 0: Cross-Cultural Collaboration
 
--AmroMohamed:
+- **Amro Mohamed**
 
-1-Awareness: Recognize cultural differences in work styles, communication,
+1. Awareness: Recognize cultural differences in work styles, communication,
 and problem-solving approaches.
 
-2-Communication: Practice inclusive and clear communication to mitigate misunderstandings.
+2. Communication: Practice inclusive and clear communication to mitigate misunderstandings.
 
-3-Collaboration Tools: Use GitHub to document decisions transparently
+3. Collaboration Tools: Use GitHub to document decisions transparently
 and ensure equitable participation.
 
-4-Conflict Resolution: Address challenges constructively by adapting to diverse viewpoints.
+4. Conflict Resolution: Address challenges constructively by adapting to diverse
+   viewpoints.
 
--AzzaOmer
+- **Azza Omer**
 
-1-Navigate and manage conflicts in group settings to strengthen collaboration.
+1. Navigate and manage conflicts in group settings to strengthen collaboration.
 
-2-Build relationships that support professional growth within and outside the team.
+2. Build relationships that support professional growth within and outside the team.
 
-3-Strengthen team connections for future opportunities and collaborations.
+3. Strengthen team connections for future opportunities and collaborations.
 
-4-Apply the full data science lifecycle in a real project .
+4. Apply the full data science lifecycle in a real project .
 
-5-Implement good coding practices.
+5. Implement good coding practices.
 
--BanuÖzyılmaz
+- **Banu Özyılmaz**
 
-1-Be a Supportive Team Member and Be a Supportive Team Member
+1. Be a Supportive Team Member 
 
-2-learn how to work well with people from different backgrounds,
+2. Learn how to work well with people from different backgrounds,
 being open to new ideas and perspectives.
 
-3-It’s important for me to communicate clearly and respectfully
+3. It’s important for me to communicate clearly and respectfully
 so we can collaborate smoothly as a team.
 
--MuhammadShahroz
+- **Muhammad Shahroz**
 
-1-Aim to work supportively and openly with teammates from diverse backgrounds,
+1. Aim to work supportively and openly with teammates from diverse backgrounds,
 
-2-ensuring clear and respectful communication.
+2. Ensuring clear and respectful communication.
 
--AmmarIbrahim
+- **Ammar Ibrahim**
 
-1-Learn how to work effectively as part of a team.
+1. Learn how to work effectively as part of a team.
 
-2-communicating efficiently and putting in effort for the team’s
+2. Communicating efficiently and putting in effort for the team’s
 success—not just individual progress.
 
-Milestone 1: Problem Identification
+---
 
--AmroMohamed:
+### Milestone 1: Problem Identification
 
-1.better understand the domain of our problem
+- **Amro Mohamed:**
 
-2.collaboration skills
+1. Better understand the domain of our problem
 
--AmmarIbrahim
+2. Collaboration skills
 
--MuhammadShahroz
+- **Muhammad Shahroz:**
 
-1.Enhance cross–time–zone coordination
+1. Enhance cross–time–zone coordination
 
-2.Improve time‑blocking and productivity
+2. Improve time‑blocking and productivity
 
--BanuÖzyılmaz
+- **Banu Özyılmaz:**
 
-1.Understand the basics and process clearly:
+1. Understand the basics and process clearly:
 
-2.Improve problem framing and Breaking down complex problems
+2. Improve problem framing and Breaking down complex problems
 
-3.Build the habit of using FRESCO test
+3. Build the habit of using FRESCO test
 
--Gennadii
+- **Gennadii Ershov:**
 
-1.Improve collaboration skills in diverse teams.
+1. Improve collaboration skills in diverse teams.
 
-2.Build a better understanding of product management and project ownership.
+2. Build a better understanding of product management and project ownership.
 
--AzzaOmer
+- **Azza Omer:**
 
-1.Understanding Problem Identification
+1. Understanding Problem Identification
 
-2.Formulating Research Question
+2. Formulating Research Question
 
-3.Applying FRESCO Methodology
+3. Applying FRESCO Methodology
 
 ---
 
