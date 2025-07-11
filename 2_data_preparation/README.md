@@ -48,9 +48,13 @@ the cleaning process followed an incremental and memory-efficient approach:
 
 ## How to Use
 
-1. Place the raw files in the working directory.
-2. Run the notebooks in the [`notebooks`](./notebooks) folder.
-3. Cleaned datasets will be generated and saved to disk (or cloud).
+1. Download and place the raw data files from  
+   [this Google Drive folder](https://drive.google.com/drive/folders/1T82lpd3Pwzkhq1nCNJah0FfwkSnphdRz?usp=share_link)  
+   into the working directory.
+
+2. Run the notebooks located in the [`notebooks`](./notebooks) folder.
+
+3. Cleaned datasets will be generated and saved to a local `../outputs/` folder.
 
 ## Notes
 
