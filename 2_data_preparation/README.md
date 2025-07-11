@@ -48,9 +48,10 @@ the cleaning process followed an incremental and memory-efficient approach:
 
 ## How to Use
 
-1. Download and place the raw data files from  
-   [this Google Drive folder](https://drive.google.com/drive/folders/1T82lpd3Pwzkhq1nCNJah0FfwkSnphdRz?usp=share_link)  
-   into the working directory.
+1. Download and place the raw data files from the link below into the working directory:  
+[Google Drive folder for raw data][raw-data-link]
+
+[raw-data-link]: https://drive.google.com/drive/folders/1T82lpd3Pwzkhq1nCNJah0FfwkSnphdRz?usp=share_link
 
 2. Run the notebooks located in the [`notebooks`](./notebooks) folder.
 
@@ -59,7 +60,10 @@ the cleaning process followed an incremental and memory-efficient approach:
 ## Notes
 
 - Cleaned CSVs are **not versioned** in this repo due to size.
-- For downstream analysis, download the files from the cloud folder above.  
-  *The cleaned outputs are stored in a  
-  [Google Drive folder for cleaned datasets](https://drive.google.com/drive/folders/1C8HEBVoI0GHZL9kh40bklIkWBWiGIfpu?usp=share_link),  
-  as this folder is not included in the repo due to size constraints.*
+- For downstream analysis, download the files from the cloud folder below.
+
+*The cleaned outputs are stored in a  
+[Google Drive folder for cleaned datasets][cleaned-data-link],  
+as this folder is not included in the repo due to size constraints.*
+
+[cleaned-data-link]: https://drive.google.com/drive/folders/1C8HEBVoI0GHZL9kh40bklIkWBWiGIfpu?usp=share_link
