@@ -75,8 +75,6 @@ The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase` and `
 | `BASE_CITY_CODE`   | Code for the immigration court jurisdiction (lookup: BaseCity)|
 | `HEARING_LOC_CODE` | Code for the assigned hearing location (lookup: Hloc)    |
 | `DEC_CODE`         | Decision code of the immigration judge (lookup: DecCode) |
-| `DEPORTED_1`       | First country of removal (lookup: country)               |
-| `DEPORTED_2`       | Second country of removal (lookup: country)              |
 | `COMP_DATE`        | Date of the proceeding was completed                     |
 | `ABSENTIA`         | Indicates if the case was decided without the individual present|
 | `CUSTODY`          | Custody status code (lookup: custody type)               |
