@@ -39,7 +39,7 @@ The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase` and `
 |--------------------|----------------------------------------------------------|
 | `idnJuvenileHistory` | Primary key for `tbl_JuvenileHistory`                  |
 | `idnCase`            | Foreign key to `A_TblCase` (`IDNCASE`)                 |
-| `idnProceeding`      | Foreign key to `B_TblProceeding`                       |
+| `idnProceeding`      | Foreign key to `B_TblProceeding` (`IDNPROCEEDING`)     |
 | `idnJuvenile`        | Foreign key to `tblLookup_Juvenile` |
 
 ---
@@ -82,8 +82,8 @@ The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase` and `
 | `NAT`              | Nationality code of the individual (lookup: country)     |
 | `LANG`             | Primary language code (lookup: language)                 |
 | `CRIM_IND`         | Indicates whether the case involved criminal charges     |
-| `DATE_DETAINED`      | Date the individual was detained                       |
-| `DATE_RELEASED`      | Date of release from detention                         |
+| `DATE_DETAINED`    | Date the individual was detained                         |
+| `DATE_RELEASED`    | Date of release from detention                           |
 
 ## Project Focus
 
