@@ -6,7 +6,7 @@ for analysis, with a focus on juvenile immigration cases.
 
 Cleaned datasets were originally planned to be stored within this folder.
 However, due to their size, they are now stored externally in cloud storage:  
-[View Cleaned Data in Cloud Storage](<link-to-folder>)
+[View Cleaned Data in Cloud Storage](https://drive.google.com/drive/folders/1C8HEBVoI0GHZL9kh40bklIkWBWiGIfpu?usp=share_link)
 
 ## Overview of Cleaning Process
 
