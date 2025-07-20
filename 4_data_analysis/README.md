@@ -83,7 +83,11 @@ show a clear relationship between representation and favorable case results.
 ### Analytical Caveats
 
 * High rates of missing values may distort estimates
-* Representation quality is unmeasured, affecting interpretation
+* Legal representation is not directly recorded in the selected tables.
+  Cases marked as “absentia” are treated as likely unrepresented,
+  based on the assumption that absence during hearings often reflects lack of
+  legal counsel. Case outcomes were classified using decision codes from tblDecCode.csv
+* Representation quality cannot be measured, affecting interpretation
 * The study identifies correlations, but establishing causation would require
   experimental research design
 
