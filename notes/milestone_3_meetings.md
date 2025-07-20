@@ -58,7 +58,7 @@
 
 ### Action Items
 
-- Upload the cleaned tables to the Google Drive folder.
+- Upload the cleaned tables to the [Google Drive folder](https://drive.google.com/drive/u/0/folders/1gv42BRnm6blapzoDEbYbFf6M1IXZJXcL).
 - Maintain consistency in data exploration documentation and formatting
   standards.
 
@@ -157,4 +157,4 @@
   exploration.
 - The other team members will focus on identifying and evaluating methods to
   apply in the data analysis phase.
-- The team will meet again tomorrow for a follow-up session.
+- The team will meet again in a couple of days for a follow-up session.
