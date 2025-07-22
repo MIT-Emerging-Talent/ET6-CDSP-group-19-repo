@@ -205,3 +205,101 @@ what we’ve learned from working together during this phase.
 - Developed new ideas and perspectives through collaborative work
 - Improved understanding of real-world data analysis challenges and solutions
 - Enhanced technical skills through hands-on experience with the dataset
+
+### Muhammet Ali Isik
+
+#### Contributions
+
+- Joined the group during this milestone and reviewed previous work to understand
+  the team's progress and current state of the project
+- Explored the data through EDA activities, focusing on case types, detention
+  durations, and legal representation patterns
+- Contributed to data analysis efforts by building on the foundation laid
+  by previous team members
+- Engaged with the existing codebase and analytical approaches to maintain
+  project continuity
+
+#### Challenges
+
+- Communication within the team could be better organized to improve
+  collaboration efficiency and coordination
+- Joining the project mid-stream required significant time to understand
+  previous work and catch up with team progress
+- Adapting to the team's established workflows and analytical approaches
+  while contributing meaningfully to ongoing work
+
+#### Progress
+
+- Learned extensively by observing other team members' analysis approaches
+  and methodologies
+- Gained understanding of the project's analytical framework and research questions
+- Developed familiarity with the EOIR dataset structure and characteristics
+- Enhanced ability to work with existing code and build upon others' contributions
+- Improved skills in collaborative data analysis and team integration
+
+### Ammar Ibrahim
+
+#### Contributions
+
+- Participated in cleaning the Reps_Assigned table to support the analysis
+  of legal representation data
+- Contributed to modifying the data_analysis notebook to reflect updated
+  data structure and findings
+- Supported data quality improvement efforts through table cleaning and validation
+- Engaged with the analytical workflow despite personal challenges
+
+#### Challenges
+
+- Faced a difficult personal situation that limited ability to participate
+  effectively through most of the milestone
+- The coding level in this milestone was somewhat challenging, requiring
+  additional learning and adaptation
+- Working in isolation for much of the milestone made it harder to stay
+  aligned with the team's progress and objectives
+
+#### Progress
+
+- Gained deeper experience working with pandas and Jupyter notebooks in
+  a real-world setting
+- Learned to explore and reuse code written by others as a pathway to
+  understanding complex analytical workflows
+- Discovered new Python libraries that help handle different types of data
+  and analytical challenges
+- Realized the importance of open communication in teamwork and collaborative
+  data analysis projects
+
+### Gennadii Ershov
+
+#### Contributions
+
+- Focused on cleaning, exploring, and validating the EOIR dataset comprehensively
+- Cleaned the juvenile_proceedings table and revised previous cleaning logic
+  for the cases table to improve data quality
+- Initiated the structure for the data exploration notebook and delegated
+  main exploration tasks to team members
+- Took the lead in organizing Zoom calls and served as main speaker to guide
+  discussions and align team progress
+- Provided technical guidance to team members throughout the analytical process
+- Documented the data cleaning and validation process to ensure clarity
+  and reproducibility
+
+#### Challenges
+
+- Coordinating team efforts across different time zones and availability
+  schedules while maintaining project momentum
+- Balancing leadership responsibilities with technical contributions
+  and quality assurance
+- Ensuring consistent data quality standards while managing multiple
+  cleaning and validation tasks
+
+#### Progress
+
+- Enhanced leadership and coordination skills through organizing team meetings
+  and guiding discussions
+- Developed expertise in data cleaning and validation processes for
+  complex government datasets
+- Improved ability to delegate tasks effectively while maintaining
+  quality oversight
+- Built proficiency in technical documentation and process standardization
+- Strengthened skills in providing technical guidance and mentorship
+  to team members
