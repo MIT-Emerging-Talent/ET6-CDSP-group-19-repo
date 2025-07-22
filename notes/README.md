@@ -14,7 +14,7 @@ new contributors to quickly understand our group’s processes.
 | [Milestone 0](milestone_0_meetings.md) | Meeting 1, Meeting 2              |
 | [Milestone 1](milestone_1_meetings.md) | Meeting 3, Meeting 4, Meeting 5   |
 | [Milestone 2](milestone_2_meetings.md) | Meeting 6, Meeting 7, Meeting 8   |
-| [Milestone 3](milestone_3_meetings.md) | *(To be added)*                  |
+| [Milestone 3](milestone_3_meetings.md) | Meeting 9, Meeting 10, Meeting 11, Meeting 12, Meeting 13|
 | [Milestone 4](milestone_4_meetings.md) | *(To be added)*                  |
 | [Milestone 5](milestone_5_meetings.md) | *(To be added)*                  |
 
@@ -32,6 +32,7 @@ new contributors to quickly understand our group’s processes.
 
 - [Google Doc – Research Questions](https://docs.google.com/document/d/1Wo8sHQ3FvOEXaQ5oRqN3xzSI-P6H3Mz-ySBnWYSa9dc/edit?usp=drive_link)
 - [Google Doc – Data Sources](https://docs.google.com/document/d/11pR0F8tgTHbgsqUsMzOBHPtQhzYu4xCNwCvyAxpAn_M/edit?tab=t.0)
+- [Google Drive - Project Datasets](https://drive.google.com/drive/u/0/folders/1gv42BRnm6blapzoDEbYbFf6M1IXZJXcL)
 
 ---
 

@@ -29,7 +29,8 @@ These tables form a relational schema, where:
 
 ## Key Tables and Fields
 
-The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase` and `B_TblProceeding`.
+The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase`, `B_TblProceeding`
+and `tbl_RepsAssigned`.
 
 ---
 
@@ -84,6 +85,24 @@ The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase` and `
 | `CRIM_IND`         | Indicates whether the case involved criminal charges     |
 | `DATE_DETAINED`    | Date the individual was detained                         |
 | `DATE_RELEASED`    | Date of release from detention                           |
+
+---
+
+### Key Fields in `tbl_RepsAssigned`
+
+| Field Name      | Description                                                 |
+|---------------- |-------------------------------------------------------------|
+|`IDNREPSASSIGNED`| Primary key for `tbl_RepsAssigned`                          |
+|`IDNCASE`        | Foreign key to `A_tblCase`                                  |
+|`STRATTYLEVEL`   | Attorney participation level: "COURT" (Immigration Court) or|
+|                 | "BOARD" (Board of Immigration Appeals)                      |
+|`STRATTYTYPE`    | Who the attorney represents: "ALIEN" (noncitizen) or "INS"  |
+|                 | (Immigration and Naturalization Service)                    |
+|`E_27_DATE`      | Date of submission of Form EOIR-27 — Notice of Entry of Appearance|
+|                 | as Attorney or Representative Before the Board of Immigration|
+|                 |  Appeals(BIA)                                               |
+|`E_28_DATE`      | Date of submission of Form EOIR-28 — Notice of Entry of Appearance|
+|                 | as Attorney or Representative Before the Immigration Court  |
 
 ## Project Focus
 
@@ -140,13 +159,16 @@ To recreate the dataset and prepare it for analysis:
    - `tbl_JuvenileHistory` links to `tbl_Case` via `IDNCASE`
    - `tbl_JuvenileHistory` links to `B_TblProceeding` via `IDNPROCEEDING`
    - `tblProceeding` links to `tbl_Case` via `IDNCASE` for comprehensive case information
+   - `tbl_RepsAssigned` links to `tbl_Case` via `IDNCASE` to provide detailed legal
+  representation information for each case.
 
-5. **Filter for project scope**
-   Start with `tbl_JuvenileHistory` to focus on juvenile cases. Join with  
-   `A_TblCase` and and `B_TblProceeding` to build complete case timelines that include
-  both demographic information and legal proceedings. This three-table foundation
-  provides the most comprehensive view of juvenile immigration cases, from initial
-  case creation through final legal decisions.
+5. **Filter for project scope**  
+   Start with `tbl_JuvenileHistory` to focus on juvenile cases. Join with `A_TblCase`,
+   `B_TblProceeding` and `tbl_RepsAssigned` to build comprehensive case timelines
+   that include demographic information, legal proceedings, and
+   legal representation details. This integrated approach provides the most complete
+   view of juvenile immigration cases, from initial case creation through
+   final legal decisions.
 
 All notebooks used to clean and prepare data are located in the  
 `2_data_preparation/notebooks` directory of this repository.
