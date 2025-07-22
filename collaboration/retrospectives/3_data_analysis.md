@@ -116,30 +116,92 @@ what we’ve learned from working together during this phase.
 
 ### Banu Ozyilmaz
 
-### Contributions
+#### Contributions
 
-- Explored the dataset structure and identified key variables from the `B_tblProceeding`
-  table relevant to our research question  
+- Explored the dataset structure and identified key variables from the
+  `B_tblProceeding` table relevant to our research question
 - Worked on initial data analysis and drafted the first version of the notebook
-- Maintained the 1_datasets documentation by recording newly added tables  
+- Maintained the 1_datasets documentation by recording newly added tables
+  and keeping track of data sources
 - Added content to the retrospective file, recorded agenda notes, and organized
-  them in the notes folder
+  them systematically in the notes folder
+- Helped teammates with documentation and error fixes
+- Contributed to team coordination and milestone planning discussions
+- Supported data quality assessment and validation efforts
 
 #### Challenges
 
-- Handling the size and complexity of the dataset was very challenging for me
+- Handling the size and complexity of the dataset was very challenging,
+  requiring significant computational resources and processing time
 - Coordinating work across different time zones and personal commitments
-  created scheduling difficulties
+  created scheduling difficulties and communication gaps
 - Experienced a personal loss during this period that affected my availability
-  and focus
+  and focus, requiring adaptation of work patterns
 - Learning new tools and methods while working under time pressure was demanding
+  and required balancing thoroughness with efficiency
 
 #### Progress
 
 - Gained hands-on experience with data manipulation tools like pandas
+  and improved proficiency in data processing workflows
 - Improved ability to identify meaningful patterns in complex datasets
+  and extract actionable insights
 - Learned to choose analysis methods that match available resources and time
-- Developed better understanding of data limitations and uncertainty
-- Built some confidence in working with real-world, messy data
+  constraints while maintaining analytical rigor
+- Developed better understanding of data limitations, uncertainty, and
+  quality assessment techniques
+- Built confidence in working with real-world, messy data and handling
+  unexpected data challenges
+- Enhanced project management and documentation skills through milestone coordination
 
-### Member2
+### Amro Mohamed
+
+#### Contributions
+
+- Responsible for completing the Exploratory Data Analysis (EDA) part of the project
+- Focused on understanding key patterns, distributions, and relationships
+  in the data
+- Analyzed case types, detention durations, and legal representation timelines
+- Developed comprehensive visualizations and statistical summaries for the dataset
+- Created detailed documentation of findings and methodologies used
+
+#### Challenges
+
+- Lack of consistent communication and availability within the team affected
+  collaboration efficiency
+- Difficulty aligning on shared goals and resolving blockers in a timely manner
+- Working with large, complex datasets required significant time and computational
+  resources
+- Balancing thoroughness of analysis with project timeline constraints
+
+#### Progress
+
+- Gained extensive experience in exploratory data analysis techniques
+- Developed skills in data visualization and pattern recognition
+- Improved ability to work independently while maintaining project standards
+- Enhanced understanding of immigration case data structures and relationships
+- Built proficiency in statistical analysis and interpretation
+
+### Muhammad Shahroz
+
+#### Contributions
+
+- Participated in data analysis and EDA activities during this milestone
+- Contributed to team discussions and decision-making processes
+- Supported data exploration efforts and documentation tasks
+- Engaged with learning new analytical techniques and methodologies
+
+#### Challenges
+
+- Communication within the team could have been better coordinated
+- Adjusting to new analytical tools and methods while meeting project deadlines
+- Working across different time zones and availability schedules
+- Balancing learning curve with productive contribution to team goals
+
+#### Progress
+
+- Learned about data analysis and EDA methodologies in this milestone
+- Gained insights from observing how other team members approached problems
+- Developed new ideas and perspectives through collaborative work
+- Improved understanding of real-world data analysis challenges and solutions
+- Enhanced technical skills through hands-on experience with the dataset
