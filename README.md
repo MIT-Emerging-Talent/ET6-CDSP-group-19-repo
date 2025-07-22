@@ -193,7 +193,7 @@ Facing deportation, seeking asylum, or applying for other forms of immigration r
 
 ### For more details [1_datasets](1_datasets/README.md)
 
-## Non-Technical Summary
+## Non-Technical Summary of the Data Analysis
 
 This project investigates how legal representation and case results for juvenile
 immigrants have shifted in response to federal immigration policies enacted
@@ -211,7 +211,7 @@ can be found in the [notebook](4_data_analysis.ipynb).
 Although the dataset is large and informative, limitations such as missing data
 and unmeasured local influences should be considered when interpreting results.
 
-## Technical Summary
+## Technical Summary of the Data Analysis
 
 The analysis is based on four linked datasets examining how immigration policy
 affects juvenile immigrants' legal representation and case outcomes. Findings
@@ -240,6 +240,7 @@ List each team member (or yourself) and their role or focus area. For example:
 - **[Banu Ozyilmaz](https://github.com/doctorbanu)**
 - **[Gennadii Ershov](https://github.com/imwaymaran)**
 - **[Muhammad Shahroz](https://github.com/Shahroz657)**
+- **[Muhammet Ali Isik](https://github.com/misik-eng)**
 - **[Ramon Colmenares](https://github.com/RamonColmenares)**
 
 ## Acknowledgments
