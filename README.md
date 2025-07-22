@@ -193,50 +193,40 @@ Facing deportation, seeking asylum, or applying for other forms of immigration r
 
 ### For more details [1_datasets](1_datasets/README.md)
 
-## Exploratory Data Analysis (EDA)
+## Non-Technical Summary of the Data Analysis
 
-### Key Analytical Questions
+This project investigates how legal representation and case results for juvenile
+immigrants have shifted in response to federal immigration policies enacted
+between 2018 and 2025. Results indicate the following:
 
-1. [Question 1 about your data]
-2. [Question 2 about your data]
-3. [Question 3 about your data]
-4. [Question 4 about your data]
-5. [Any additional questions]
+- Juveniles with legal representation are more likely to receive favorable
+  decisions (45.3% vs. 0.8% without representation).
+- Major policy changes align with changes in representation rates.
+- Demographic characteristics affect outcomes, but representation remains the
+  most reliable predictor.
 
----
+Visual materials help communicate these relationships in an accessible way and
+can be found in the [notebook](4_data_analysis.ipynb).
 
-## Methodology / Considerations
+Although the dataset is large and informative, limitations such as missing data
+and unmeasured local influences should be considered when interpreting results.
 
-Reflect on important aspects of the dataset and analysis, such as:
+## Technical Summary of the Data Analysis
 
-- Sampling methods or biases
-- Any relevant assumptions
-- Data quality issues or missing values
-- How these factors might affect your results
+The analysis is based on four linked datasets examining how immigration policy
+affects juvenile immigrants' legal representation and case outcomes. Findings
+show a clear relationship between representation and favorable case results.
 
-Each bullet point should highlight a single consideration or constraint.
+### Datasets Used
 
----
+- **juvenile_cases_cleaned.csv.gz**: 1.8 million demographic and procedural records
+- **juvenile_history_cleaned.csv.gz**: Records linking juveniles to proceedings
+- **juvenile_proceedings_cleaned.csv.gz**: Records of appearances and decisions
+- **tblLookup_Juvenile.csv**: Reference table for juvenile categories
+- **tblDecCode.csv**: Reference table for decision code descriptions
+- **tbl_RepsAssigned.csv**: Reference table for representation
 
-## Summary / Key Findings
-
-Summarize the main takeaways from your analysis. Organize by topic or question:
-
-### 1. [Title for Finding 1]
-
-- Bullet point(s) summarizing the result or insight.
-
-### 2. [Title for Finding 2]
-
-- Bullet point(s) summarizing the result or insight.
-
-### 3. [Title for Finding 3]
-
-- Bullet point(s) summarizing the result or insight.
-
-…continue as needed.
-
-End with a brief paragraph on any broader implications or next steps.
+### For more details [4_data_analysis](4_data_analysis/README.md)
 
 ---
 
@@ -245,15 +235,12 @@ End with a brief paragraph on any broader implications or next steps.
 List each team member (or yourself) and their role or focus area. For example:
 
 - **[Ammar Ibrahim](https://github.com/AmmarIbrahimTech)**
-  - [Responsibility or question addressed]
-  - [Responsibility or question addressed]
 - **[Amro Mohamed](https://github.com/Elshikh-Amro)**
-  - [Responsibility or question addressed]
-  - [Responsibility or question addressed]
 - **[Azza Omer](https://github.com/AzzaOmer1)**
 - **[Banu Ozyilmaz](https://github.com/doctorbanu)**
 - **[Gennadii Ershov](https://github.com/imwaymaran)**
 - **[Muhammad Shahroz](https://github.com/Shahroz657)**
+- **[Muhammet Ali Isik](https://github.com/misik-eng)**
 - **[Ramon Colmenares](https://github.com/RamonColmenares)**
 
 ## Acknowledgments
