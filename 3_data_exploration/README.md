@@ -1,10 +1,9 @@
 # Data Exploration
 
-This folder contains materials for exploring and understanding the prepared
-datasets, including contextual analysis, descriptive statistics, and
-visualizations.
+This folder contains materials for exploring and understanding the prepared datasets,
+including contextual analysis, descriptive statistics, and visualizations.
 
-## Current Contents
+## Folder Contents
 
 - [**policy_impact_review.md**](./policy_impact_review.md)  
   A contextual review of immigration policy changes and their potential impacts
@@ -40,19 +39,37 @@ visualizations.
   - Male (M): 875,507 — 64%  
   - Female (F): 494,724 — 36%  
 
-  TExploratory data analysis is still in progress.
-  Additional visualizations and expanded exploratory analysis will
-  be added as the project evolves.
+  **Age Analysis**:
+  - Age statistics calculated from birth date and entry date
+  - Age range: 0 to 118 years (maximum likely represents data quality issue)
+  - Analysis includes histogram visualizations showing age distribution
+  - Separate analysis for juveniles under 21 years of age
 
-## Planned Development
+  **Top Nationalities in Juvenile Cases**:
+  - Guatemala (GT), Honduras (HO), Mexico (MX), El Salvador (ES)
+  - Comprehensive nationality abbreviation lookup table included
+  - Visualization of top 20 nationalities by case count
 
-Additional exploratory analysis scripts and notebooks will be developed in
-future phases to:
+  **Language Distribution**:
+  - Top 5 languages analyzed with visualization
+  - Spanish appears to be the predominant language
 
-- Generate descriptive statistics for key variables
-- Create visualizations of case trends and patterns
-- Examine demographic distributions in juvenile cases
-- Support the project’s research objectives through data-driven insights
+  **Detention Analysis**:
+  - Mean detention duration calculated across all cases
+  - Sample analysis of first 1,000 cases for detailed detention patterns
+  - Detention duration visualization with histogram analysis
+  - Average detention duration by case type analysis (excluding AOL, DCC, NAC types)
+
+  **Legal Representation Analysis** (`rep` Table):
+  - Total entries: 2,704,603 with 6 columns
+  - Time series analysis of case counts by representation level (STRATTYLEVEL)
+  - Monthly trends showing rising pattern from early 2000s to end of 2015
+  - Analysis of representation types and court levels over time
+
+  The exploratory data analysis includes comprehensive statistical summaries,
+  demographic breakdowns, temporal trend analysis, and multiple visualization
+  types including histograms, bar plots, count plots, and time series
+  visualizations.
 
 -----
 
