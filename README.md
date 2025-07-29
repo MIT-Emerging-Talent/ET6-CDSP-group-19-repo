@@ -280,46 +280,70 @@ This analytical approach was shaped by several constraints and design decisions:
 
 ### Key Findings
 
-The comprehensive analysis revealed these insights:
+The comprehensive analysis revealed several important insights about immigration
+policy impacts on juvenile cases:
 
-1. Legal representation rates and case outcomes both varied across policy
-   periods, but the observed relationships were generally weak in practical
-   terms.
+#### 1. Policy Impact on Case Outcomes
 
-2. Statistically significant associations were found between policy period,
-   legal representation, and case outcomes (all p < 0.001), but effect sizes
-   were negligible to small (Cramer's V: 0.042 for policy vs. representation,
-   0.177 for policy vs. outcome).
+The Biden era was associated with significantly higher odds of favorable outcomes
+compared to the Trump eras.  
+Policy era showed a statistically significant but small relationship with case outcomes
+**(χ² = 29,427.96, p < 0.001, Cramer's V = 0.177)**.
 
-3. Logistic regression showed that legal representation, policy era, age, and
-   gender were all statistically associated with case outcomes, but no single
-   factor overwhelmingly determined results.
+**Favorable Outcome Rates by Policy Era:**
 
-4. The predictive model had moderate performance (accuracy: 0.689, AUC-ROC:
-   0.723), indicating some ability to distinguish outcomes but leaving
-   substantial unexplained variance.
+- **Biden Era (Jan 2021 – Apr 2025)**: 37.1% favorable outcomes
+- **Trump Era I (Apr 2018 – Jan 2021)**: 20.6% favorable outcomes  
+- **Trump Era II (Apr 2025 – Present)**: 22.7% favorable outcomes
 
-5. All findings should be interpreted with caution, considering data and
-   methodological limitations.
+#### 2. Legal Representation Patterns
+
+Legal representation rates showed a negligible relationship with policy changes
+**(χ² = 1,643.51, p < 0.001, Cramer's V = 0.042)**.  
+Representation rates averaged 37-40% across all policy periods, with some fluctuation
+but no clear systematic pattern.
+
+**Representation Rates by Policy Era:**
+
+- **Biden Era**: 43.3% represented
+- **Trump Era I**: 40.1% represented
+- **Trump Era II**: 51.1% represented
+
+#### 3. Critical Impact of Legal Representation
+
+Legal representation emerged as the strongest predictor of favorable outcomes,
+with a medium effect size **(χ² = 90,865.53, p < 0.001, Cramer's V = 0.310)**.  
+Juveniles with legal representation were over 5 times more likely to achieve
+favorable outcomes (odds ratio: 5.46).
+
+**Outcome Rates by Representation Status:**
+
+- **Represented cases**: 46.9% favorable outcomes
+- **Unrepresented cases**: 18.0% favorable outcomes
+
+#### 4. Demographic Factors
+
+The analysis revealed modest but significant demographic effects:
+
+- **Gender**: Females had slightly higher odds of favorable outcomes
+  **(odds ratio: 1.24)**
+- **Age**: Younger children (under 12) and older teens (16-17) faced lower
+  odds of success **(odds ratios: 0.73 and 0.91, respectively)**  
+  Ages 12-15 had no significant difference in outcomes compared to the
+  reference group **(odds ratio: 1.00)**
+
+#### 5. Model Performance and Limitations
+
+The predictive model achieved moderate performance **(accuracy: 0.689, AUC-ROC: 0.723)**,
+indicating meaningful but limited predictive power.  
+This suggests that substantial factors influencing case outcomes remain unmeasured
+in the available data.
 
 📌 Visualizations supporting these findings are available in the
 [analysis notebook](4_data_analysis/4_data_analysis.ipynb).
 
 📌 Full methodology and extended results can be found in
 [4_data_analysis/README.md](4_data_analysis/README.md).
-
----
-
-### Statistical Significance
-
-- Statistically significant relationships were observed between policy era,
-  legal representation, and case outcomes (all p < 0.001).
-
-- Effect sizes, as measured by Cramer's V and regression coefficients,
-  indicated that the practical impact of these associations was limited.
-
-- Results should be viewed in light of data constraints, unmeasured
-  confounders, and the absence of regional analysis.
 
 ---
 
