@@ -2,66 +2,66 @@
 
 ## Source
 
-The dataset comes from the Executive Office for Immigration Review (EOIR),
-available via Data.gov.  
-It contains raw case-level data on immigration court
-proceedings, including juvenile cases, and covers the period from 2008 to the present.
+The dataset comes from the Executive Office for Immigration Review (EOIR),  
+available via [Data.gov](https://catalog.data.gov/dataset/eoir-case-data).  
+It contains raw case-level data on immigration court proceedings, including  
+juvenile cases, and covers the period from 2008 to the present.
 
-The full dataset could not be included in this repository due to its size,
-but it can be accessed directly through the following link:
+We could not include the full dataset in this repository due to its size,  
+but it can be accessed directly through the following link:  
 [Google Drive Folder](https://drive.google.com/drive/folders/1gv42BRnm6blapzoDEbYbFf6M1IXZJXcL?usp=sharing)
 
-This version reflects the latest public release as of June 2025.
+> This version reflects the latest public release as of **March 2025**.
 
 ## Structure
 
 The dataset is composed of 97 tables (.csv) in total:
 
-- 19 main tables containing case-level information.  
+- 19 main tables containing case-level information.
 - 78 lookup tables providing reference values for codes used in the main tables.
 
 These tables form a relational schema, where:
 
-- Each table has a primary key and may use foreign keys to reference others.  
-- Code fields in the main tables act as foreign keys to lookup tables, mapping
-  short codes to full descriptions.  
+- Each table has a primary key and may use foreign keys to reference others.
+- Code fields in the main tables act as foreign keys to lookup tables, mapping  
+  short codes to full descriptions.
 - Tables can be joined on shared keys to follow a case through its full lifecycle.
 
 ## Key Tables and Fields
 
-The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase`,
-`B_TblProceeding`, and `tbl_RepsAssigned`.
+The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase`, `B_TblProceeding`
+and `tbl_RepsAssigned`.
 
 ---
 
 ### Key Fields in `tbl_JuvenileHistory`
 
-| Field Name          | Description                                           |
-|---------------------|-------------------------------------------------------|
-| `idnJuvenileHistory` | Primary key for `tbl_JuvenileHistory`                |
-| `idnCase`            | Foreign key to `A_TblCase` (`IDNCASE`)               |
-| `idnProceeding`      | Foreign key to `B_TblProceeding` (`IDNPROCEEDING`)   |
-| `idnJuvenile`        | Foreign key to `tblLookup_Juvenile`                   |
+| Field Name         | Description                                              |
+|--------------------|----------------------------------------------------------|
+| `idnJuvenileHistory` | Primary key for `tbl_JuvenileHistory`                  |
+| `idnCase`            | Foreign key to `A_TblCase` (`IDNCASE`)                 |
+| `idnProceeding`      | Foreign key to `B_TblProceeding` (`IDNPROCEEDING`)     |
+| `idnJuvenile`        | Foreign key to `tblLookup_Juvenile` |
 
 ---
 
 ### Key Fields in `A_TblCase`
 
-| Field Name        | Description                                               |
-|-------------------|-----------------------------------------------------------|
-| `IDNCASE`         | Primary key for `A_TblCase`                               |
-| `NAT`             | Nationality code of the individual (lookup: nationality) |
-| `LANG`            | Primary language code (lookup: language)                  |
-| `CUSTODY`         | Custody status code (lookup: custody type)                |
-| `CASE_TYPE`       | Type of immigration case (lookup: case type)              |
-| `LATEST_HEARING`  | Date of the latest hearing                                |
-| `LATEST_TIME`     | Time of the latest hearing                                |
-| `LATEST_CAL_TYPE` | Type of hearing: "M" (master) or "I" (individual)         |
-| `DATE_OF_ENTRY`   | Date the individual entered the U.S.                      |
-| `GENDER`          | Gender code (typically "M" or "F")                        |
-| `DATE_DETAINED`   | Date the individual was detained                          |
-| `DATE_RELEASED`   | Date of release from detention                            |
-| `DETENTION_DATE`  | Date the individual entered current detention facility    |
+| Field Name           | Description                                            |
+|----------------------|--------------------------------------------------------|
+| `IDNCASE`            | Primary key for `A_TblCase`                            |
+| `NAT`                | Nationality code of the individual (lookup: nationality)|
+| `LANG`               | Primary language code (lookup: language)               |
+| `CUSTODY`            | Custody status code (lookup: custody type)             |
+| `CASE_TYPE`          | Type of immigration case (lookup: case type)           |
+| `LATEST_HEARING`     | Date of the latest hearing                             |
+| `LATEST_TIME`        | Time of the latest hearing                             |
+| `LATEST_CAL_TYPE`    | Type of hearing: `"M"` (master) or `"I"` (individual)  |
+| `DATE_OF_ENTRY`      | Date the individual entered the U.S.                   |
+| `GENDER`             | Gender code (typically `"M"` or `"F"`)                 |
+| `DATE_DETAINED`      | Date the individual was detained                       |
+| `DATE_RELEASED`      | Date of release from detention                         |
+| `DETENTION_DATE`     | Date the individual entered current detention facility |
 
 ---
 
@@ -104,15 +104,13 @@ The primary tables for this project are `tbl_JuvenileHistory`, `A_TblCase`,
 |`E_28_DATE`      | Date of submission of Form EOIR-28 — Notice of Entry of Appearance|
 |                 | as Attorney or Representative Before the Immigration Court  |
 
----
-
 ## Project Focus
 
 Although the dataset contains a broad range of immigration court records,
-focus is specifically placed on juvenile cases.  
-For this reason, analysis is
-begun with the `tbl_JuvenileHistory` table, which contains one row per juvenile
-and serves as the entry point for linking to other case-related tables.
+this project focuses specifically on juvenile cases.
+For this reason, our analysis begins with the `tbl_JuvenileHistory` table,
+which contains one row per juvenile and serves as the entry point for linking
+to other case-related tables.
 
 ## Possible Flaws and Limitations
 
@@ -123,20 +121,20 @@ and serves as the entry point for linking to other case-related tables.
   Some fields are marked as "Legacy" and may no longer be consistent.
 
 - **Duplicates**: Individuals may appear in multiple rows or be involved in
-  multiple cases, requiring careful handling during analysis.
+  multiple cases, which requires careful handling during analysis.
 
 - **Ambiguous codes**: Some lookup tables contain overlapping or unclear labels,
   making interpretation difficult without external documentation.
 
-- **Long case durations**: Immigration cases may span multiple years and presidential
-  administrations, which can affect legal context and outcomes.
+- **Long case durations**: Immigration cases can span multiple years and
+  presidential administrations, which may affect legal context and outcomes.
 
 - **Misleading columns**: Some fields (e.g., `DATCREATEDON`, `DATMODIFIEDON` in
   `tbl_JuvenileHistory`) do not reflect the actual dates or information they are
   supposed to provide.
 
-- **Outdated snapshot**: The dataset has not been updated since June 2025. This
-  is relevant for the project, which aims to analyze recent policy changes.
+- **Outdated snapshot**: The dataset has not been updated since March 2025.
+  This is relevant for our project, which aims to analyze recent policy changes.
 
 ## Reproducibility
 
@@ -151,31 +149,26 @@ To recreate the dataset and prepare it for analysis:
    Lookup tables are stored in the `Lookup` folder.
 
 3. **Standardize formats**  
-   Missing values should be cleaned, date formats standardized, and consistent
-   data types ensured (e.g., string or categorical for code fields).
+   Clean missing values, standardize date formats, and ensure consistent data  
+   types (e.g., string or categorical for code fields).
 
 4. **Join tables**  
-   Key fields are used to combine main tables. Code fields are used to join with
-   lookup tables and decode categorical values.  
-  
-   Key relationships include:
+   Use key fields to combine main tables. Use code fields to join with lookup  
+   tables and decode categorical values.  Key relationships include:
 
-   - `tbl_JuvenileHistory` is linked to `tbl_Case` via `IDNCASE`.  
-   - `tbl_JuvenileHistory` is linked to `B_TblProceeding` via `IDNPROCEEDING`.  
-   - `tblProceeding` is linked to `tbl_Case` via `IDNCASE` for comprehensive case
-     information.
-   - `tbl_RepsAssigned` is linked to `tbl_Case` via `IDNCASE` to provide detailed
-     legal representation information for each case.
+   - `tbl_JuvenileHistory` links to `tbl_Case` via `IDNCASE`
+   - `tbl_JuvenileHistory` links to `B_TblProceeding` via `IDNPROCEEDING`
+   - `tblProceeding` links to `tbl_Case` via `IDNCASE` for comprehensive case information
+   - `tbl_RepsAssigned` links to `tbl_Case` via `IDNCASE` to provide detailed legal
+  representation information for each case.
 
 5. **Filter for project scope**  
-   The analysis is started with `tbl_JuvenileHistory` to focus on juvenile
-   cases.  
-   Joins are made with `A_TblCase`, `B_TblProceeding` and `tbl_RepsAssigned` to build
-   comprehensive case timelines that include demographic information, legal
-   proceedings, and legal representation details.  
-   This integrated approach provides
-   the most complete view of juvenile immigration cases, from initial case creation
-   through final legal decisions.
+   Start with `tbl_JuvenileHistory` to focus on juvenile cases. Join with `A_TblCase`,
+   `B_TblProceeding` and `tbl_RepsAssigned` to build comprehensive case timelines
+   that include demographic information, legal proceedings, and
+   legal representation details. This integrated approach provides the most complete
+   view of juvenile immigration cases, from initial case creation through
+   final legal decisions.
 
-📌 All notebooks used to clean and prepare data are located in the
+All notebooks used to clean and prepare data are located in the  
 `2_data_preparation/notebooks` directory of this repository.
