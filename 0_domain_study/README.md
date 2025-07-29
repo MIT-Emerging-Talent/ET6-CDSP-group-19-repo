@@ -173,3 +173,30 @@ answers to the research question:
   juvenile case outcomes, based on prior data (before those policy changes).  
 - To predict the potential effect of these policy changes on future case outcomes
   for immigrant juveniles.
+
+---
+
+## Next Steps & Expected Contributions
+
+This domain study establishes the foundation for a comprehensive analysis
+of immigration policy impacts on juvenile legal representation and case
+outcomes. The research will proceed through systematic data collection
+and analysis phases, with the approach depending on data availability as
+outlined in the research objectives above.
+
+### Implementation Plan
+
+The research will proceed through systematic methodological phases:
+
+- **Data Collection:** Download and preprocess EOIR datasets, compile policy
+timeline with key implementation dates
+- **Analysis:** Apply statistical methods to examine representation-outcome
+relationships and comparative trends across policy periods
+- **Documentation:** Establish reproducible analysis pipeline and generate
+comprehensive findings report with policy recommendations
+
+### Expected Contributions
+
+This research aims to provide evidence-based insights into policy effects
+on juvenile immigration cases, contributing to academic understanding and
+informing future policy recommendations for equitable legal protection.
