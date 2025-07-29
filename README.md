@@ -221,74 +221,56 @@ Before conducting formal hypothesis testing, exploratory analysis was performed 
 
 ### Analytical Approach
 
-This project investigates how legal representation and case results for juvenile
-immigrants have shifted in response to federal immigration policies enacted
+This project investigates how legal representation and case outcomes for
+juvenile immigrants shifted in response to federal immigration policies enacted
 between 2018 and 2025. The analysis employed several methodological approaches:
 
-1. **Time Series Analysis**
-   - Trends were analyzed across three distinct administration periods
-   - Policy implementation timelines were mapped against representation rates
+1. **Time Series Analysis**  
+   - Trends were examined across three distinct administration periods  
+   - Policy implementation timelines were aligned with representation rates
 
-2. **Statistical Testing**
-   - Chi-square tests evaluated associations between variables
-   - p-values < 0.001 were consistently obtained for representation effects
+2. **Statistical Testing**  
+   - Chi-square tests assessed the relationship between representation and
+     case outcomes  
+   - Consistently strong significance levels were observed (p < 0.001)
 
-3. **Regression Modeling**
-   - Logistic regression models controlled for confounding factors
-   - Demographic variables were included as covariates
+3. **Regression Modeling**  
+   - Logistic regression models controlled for potential confounders  
+   - Demographic variables were included as covariates to isolate representation
+     effects
 
-### Initial Findings Summary
+### Findings
 
-Key results from the analysis indicate:
+The comprehensive analysis revealed several critical insights:
 
-- Juveniles with legal representation are significantly more likely to receive favorable
-  decisions (45.3% vs. 0.8% without representation)
-- Major policy changes align with observable changes in representation rates
-- Demographic characteristics affect outcomes, but representation remains the
-  most reliable predictor of favorable case results
+- **Legal Representation Matters**: Juveniles with legal representation were
+  significantly more likely to receive favorable decisions (**45.3%**) compared
+  to those without representation (**0.8%**).  
+- **Policy Shifts and Representation Rates**: Representation rates fluctuated
+  in alignment with major federal immigration policy changes, particularly
+  during restrictive periods.  
+- **Demographic Influences**: While demographic characteristics such as age and
+  nationality influenced outcomes, legal representation consistently emerged as
+  the most powerful predictor.  
+- **Temporal Trends**: Time series analysis showed clear patterns linking policy
+  enforcement periods with variations in access to legal counsel and
+  corresponding shifts in case results.
 
-Although the dataset is large and informative, limitations such as missing data
-and unmeasured local influences should be considered when interpreting results.
+📌 Visualizations supporting these findings are available in the  
+[analysis notebook](4_data_analysis/4_data_analysis.ipynb).
 
-📌 Visual materials help communicate these relationships in an accessible way and
-can be found in the [analysis notebook](4_data_analysis/4_data_analysis.ipynb).
-
-📌 A detailed methodology and all findings can be found in [4_data_analysis](4_data_analysis/README.md)
-
----
-
-## Key Findings
-
-The comprehensive data analysis revealed several critical insights:
-
-- **Legal Representation Impact**: A stark disparity exists in case outcomes,
-  with represented juveniles receiving favorable decisions at a rate of 45.3%
-  compared to only 0.8% for unrepresented juveniles.
-  
-- **Policy Period Effects**: Significant fluctuations in representation rates
-  correlate directly with major immigration policy transitions between
-  administrations.
-  
-- **Demographic Influences**: While demographic factors influence case outcomes,
-  legal representation consistently serves as the strongest predictor of
-  favorable decisions.
-  
-- **Time Trends**: Clear patterns of declining representation rates occur during
-  restrictive policy periods, with corresponding negative impacts on case
-  outcomes.
+📌 Full methodology and extended results can be found in  
+[4_data_analysis/README.md](4_data_analysis/README.md).
 
 ### Statistical Significance
 
-The relationship between representation and favorable outcomes was confirmed
-through rigorous statistical testing (p < 0.001), demonstrating that these
-findings are not attributable to random variation.
+The relationship between legal representation and favorable case outcomes was
+confirmed through rigorous statistical testing. Chi-square analyses consistently
+produced **p-values < 0.001**, indicating that the observed associations are
+highly statistically significant and unlikely to be due to chance.
 
-Visual representations of these relationships are presented in the
-[analysis notebook](4_data_analysis/4_data_analysis.ipynb).
-
-Despite the robust dataset utilized, certain limitations including missing data
-points and unmeasured local policy influences should be considered when
-interpreting these results.
+Despite the strength of these results, interpretation should account for known
+limitations, such as missing data and unmeasured local-level influences.
 
 ---
 
