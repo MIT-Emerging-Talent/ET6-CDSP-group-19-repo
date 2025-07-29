@@ -221,56 +221,105 @@ Before conducting formal hypothesis testing, exploratory analysis was performed 
 
 ### Analytical Approach
 
-This project investigates how legal representation and case outcomes for
-juvenile immigrants shifted in response to federal immigration policies enacted
-between 2018 and 2025. The analysis employed several methodological approaches:
+This study examined how legal representation and case outcomes for juvenile
+immigrants evolved across major U.S. federal immigration policy periods
+(2018–2025).  
 
-1. **Time Series Analysis**  
-   - Trends were examined across three distinct administration periods  
-   - Policy implementation timelines were aligned with representation rates
+The analysis included:
 
-2. **Statistical Testing**  
-   - Chi-square tests assessed the relationship between representation and
-     case outcomes  
-   - Consistently strong significance levels were observed (p < 0.001)
+1. **Time Series Analysis:**  
+   Trends in legal representation and case outcomes were visualized over
+   time and by policy period.
 
-3. **Regression Modeling**  
-   - Logistic regression models controlled for potential confounders  
-   - Demographic variables were included as covariates to isolate representation
-     effects
+2. **Statistical Testing:**  
+   Associations between policy era, legal representation, and case outcomes
+   were assessed using chi-square tests.  
+   Effect sizes (Cramer's V) were
+   calculated to evaluate the practical significance of observed relationships.
 
-### Findings
+3. **Regression Modeling:**  
+   Logistic regression was used to estimate the influence of legal
+   representation, policy era, age, and gender on case outcomes.
 
-The comprehensive analysis revealed several critical insights:
+Additionally, because these policy periods closely align with presidential
+terms, our analysis also captures the broader influence of different political
+administrations on juvenile immigration outcomes.
 
-- **Legal Representation Matters**: Juveniles with legal representation were
-  significantly more likely to receive favorable decisions (**45.3%**) compared
-  to those without representation (**0.8%**).  
-- **Policy Shifts and Representation Rates**: Representation rates fluctuated
-  in alignment with major federal immigration policy changes, particularly
-  during restrictive periods.  
-- **Demographic Influences**: While demographic characteristics such as age and
-  nationality influenced outcomes, legal representation consistently emerged as
-  the most powerful predictor.  
-- **Temporal Trends**: Time series analysis showed clear patterns linking policy
-  enforcement periods with variations in access to legal counsel and
-  corresponding shifts in case results.
+#### Analytical Constraints & Limitations
 
-📌 Visualizations supporting these findings are available in the  
+This analytical approach was shaped by several constraints and design decisions:
+
+- **Omitted Variables and Unused Dimensions**  
+  Certain variables and analysis directions—such as nationality and court
+  region—were considered in early planning but ultimately not included.  
+  - Nationality was excluded from the regression due to high cardinality and
+  interpretability concerns.
+  - Court or regional-level comparisons were not
+  pursued due to time constraints, data complexity, and the team's limited
+  capacity.  
+
+  While both areas could offer valuable insights, the study focused
+  on core variables to ensure a clear and tractable analysis.
+
+- **Data Structure and Quality Limitations**  
+  The dataset was very large but often inconsistent. Some portions included missing,
+  inaccurate, or corrupted entries. Others displayed structural complexity,
+  making it difficult to perform clean and comprehensive comparisons.
+
+- **Temporal Ambiguity in Policy Changes**  
+  Precise start and end dates for immigration policy changes were often unclear
+  or not verifiable through direct government sources.
+
+  To address this, policy periods were defined based on presidential terms and
+  anchored in major documented immigration policy changes during each era, as:
+  - **Trump Era I (Zero Tolerance Policy Era)**: *April 2018 – January 2021*  
+  - **Biden Era (Policy Stability)**: *January 2021 – April 2025*  
+  - **Trump Era II (Funding Cut Era)**: *April 2025 – Present*
+
+---
+
+### Key Findings
+
+The comprehensive analysis revealed these insights:
+
+1. Legal representation rates and case outcomes both varied across policy
+   periods, but the observed relationships were generally weak in practical
+   terms.
+
+2. Statistically significant associations were found between policy period,
+   legal representation, and case outcomes (all p < 0.001), but effect sizes
+   were negligible to small (Cramer's V: 0.042 for policy vs. representation,
+   0.177 for policy vs. outcome).
+
+3. Logistic regression showed that legal representation, policy era, age, and
+   gender were all statistically associated with case outcomes, but no single
+   factor overwhelmingly determined results.
+
+4. The predictive model had moderate performance (accuracy: 0.689, AUC-ROC:
+   0.723), indicating some ability to distinguish outcomes but leaving
+   substantial unexplained variance.
+
+5. All findings should be interpreted with caution, considering data and
+   methodological limitations.
+
+📌 Visualizations supporting these findings are available in the
 [analysis notebook](4_data_analysis/4_data_analysis.ipynb).
 
-📌 Full methodology and extended results can be found in  
+📌 Full methodology and extended results can be found in
 [4_data_analysis/README.md](4_data_analysis/README.md).
+
+---
 
 ### Statistical Significance
 
-The relationship between legal representation and favorable case outcomes was
-confirmed through rigorous statistical testing. Chi-square analyses consistently
-produced **p-values < 0.001**, indicating that the observed associations are
-highly statistically significant and unlikely to be due to chance.
+- Statistically significant relationships were observed between policy era,
+  legal representation, and case outcomes (all p < 0.001).
 
-Despite the strength of these results, interpretation should account for known
-limitations, such as missing data and unmeasured local-level influences.
+- Effect sizes, as measured by Cramer's V and regression coefficients,
+  indicated that the practical impact of these associations was limited.
+
+- Results should be viewed in light of data constraints, unmeasured
+  confounders, and the absence of regional analysis.
 
 ---
 
