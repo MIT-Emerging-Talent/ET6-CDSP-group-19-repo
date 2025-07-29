@@ -314,7 +314,7 @@ but no clear systematic pattern.
 Legal representation emerged as the strongest predictor of favorable outcomes,
 with a medium effect size **(χ² = 90,865.53, p < 0.001, Cramer's V = 0.310)**.  
 Juveniles with legal representation were over 5 times more likely to achieve
-favorable outcomes (odds ratio: 5.46).
+favorable outcomes **(odds ratio: 5.46)**.
 
 **Outcome Rates by Representation Status:**
 
