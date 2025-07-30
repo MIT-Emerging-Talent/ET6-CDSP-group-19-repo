@@ -100,7 +100,7 @@ collected and compared.
 The percentage of deportation outcomes before and after each policy change was
 collected and compared.
 
-⚠ **Limitation in this approach:**
+⚠️ **Limitation in this approach:**
 
 - Comparing deportation percentages alone doesn’t isolate the effect of legal representation,
   as other factors like case complexity and selection bias may influence outcomes.
