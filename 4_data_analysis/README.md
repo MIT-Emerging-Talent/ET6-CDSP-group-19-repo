@@ -14,6 +14,7 @@ case outcomes for immigrant juveniles seeking protection.
   * `juvenile_cases_cleaned.csv.gz`: Case-level data with demographics
   * `juvenile_history_cleaned.csv.gz`: History records linked to juvenile cases
   * `juvenile_proceedings_cleaned.csv.gz`: Decision and hearing-level data
+  * `juvenile_reps_assigned.csv.gz`: Records of juvenile legal representation
   * `tblLookup_Juvenile.csv`: Reference table for juvenile categories
   * `tblDecCode.csv`: Reference table for decision code descriptions
 
