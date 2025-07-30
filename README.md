@@ -2,75 +2,62 @@
 
 How Immigration Policies Affect Immigrant Juveniles Seeking Protection
 
-## Project Overview
+## Project Overview & Problem Statement
 
-The goal of this project is to explore how recent changes in U.S. immigration
-policy under the current administration are affecting immigrant juveniles’
-access to legal representation and the outcomes of their protection cases.
-
-Our key questions include:
-
-- How have recent policy shifts impacted access to legal aid for immigrant juveniles?
-- What are the trends in case outcomes for unrepresented versus represented youth?
-- What structural or systemic factors contribute to the legal gap?
-
----
-
-## Problem Statement
-
-Immigrant juveniles in the U.S. face serious barriers to legal
-representation, especially under recent changes in immigration policy.
+Immigrant juveniles in the U.S. face serious barriers to legal representation,
+particularly under recent changes in immigration policy.
 These policies have increased case backlogs, limited access to legal aid,
 and negatively affected outcomes for children seeking protection.
-Our group aims to understand how these systemic issues shaped by shifting
-policies, institutional structures, and public attitudes impact vulnerable
-youth and what can be done to improve fairness and access to justice.
 
-For more details: [0_domain_study](0_domain_study/README.md)
+This research examines how these policy changes have affected immigrant juveniles'
+access to legal representation and the outcomes of their protection cases.
+The study seeks to understand how systemic issues, shaped by shifting policies,
+institutional structures, and public attitudes, impact vulnerable youth and
+identify potential interventions to improve fairness and access to justice.
 
-## Stack / Technologies Used
+The study addresses these key questions:
 
-- [Programming Language / Version]
-- [Library / Framework]
-- [Library / Framework]
-- [Library / Framework]
-- [Notebook / IDE]
+- How have recent policy shifts impacted access to legal aid for immigrant juveniles?
+- What trends can be observed in case outcomes between represented and unrepresented
+  youth?
+- Which structural or systemic factors contribute to the identified legal representation
+  gap?
+
+📌 For more details on the problem domain: [0_domain_study](0_domain_study/README.md)
 
 ---
 
-## Understanding the Problem Domain
+## Domain Analysis & Conceptual Framework
 
-We applied systems thinking to the topic domain to understand the complex,
-interconnected issues immigrant juveniles face in accessing legal representation
-and reuniting with family in the U.S.
-These systemic challenges result from increasingly restrictive immigration
-policies, funding instability, enforcement practices, and underlying beliefs
-about immigrant children and legal rights.
+### Systems Approach
 
-For a more detailed breakdown of the system, including key events, trends,
-structures, and underlying mental models, check out the full overview:
-[0_domain_study](0_domain_study/README.md)
+Systems thinking was applied to understand the complex, interconnected issues
+immigrant juveniles face in accessing legal representation and reuniting with
+family in the U.S. These systemic challenges result from increasingly
+restrictive immigration policies, funding instability, enforcement practices,
+and underlying beliefs about immigrant children and legal rights.
 
-## Actionable Research Question
+### Actionable Research Question
 
 ***"How do changes in U.S. immigration policy under the current administration
 affect access to legal representation and outcomes for immigrant juveniles
 seeking protection?"***
 
-For full context and research objectives: [0_domain_study](0_domain_study/README.md)
+📌 For a more detailed explanation of the systems thinking behind our research question,
+including context, constraints, and objectives: [0_domain_study](0_domain_study/README.md)
 
 ---
 
-## Non-Technical Explanation of Our Domain Model  
+## Non-Technical Explanation of the Domain Model  
 
-Our domain model aims to translate the real-world system of immigration policy,
-legal representation, and juvenile case outcomes into data we can analyze.
-Below is how we chose to model the data and what limitations
-we recognize in this approach.
+The domain model translates the real-world system of immigration policy,
+legal representation, and juvenile case outcomes into analyzable data.
+Below is how the data was modeled and what limitations
+are recognized in this approach.
 
-### ✅ Features We Will Collect for Each Case  
+### ✅ Features Collected for Each Case  
 
-We will represent each case using the following features:
+Each case is represented using the following features:
 
 - **Case ID**
 - **Date of filing / decision**
@@ -86,7 +73,7 @@ We will represent each case using the following features:
 
 ### ✅ Policy Changes Modeling  
 
-We will model policy change data by:
+Policy change data is modeled by:
 
 - Identifying relevant policy changes connected to juvenile immigration cases.
 - Describing what exactly changed in these policies.
@@ -95,34 +82,35 @@ We will model policy change data by:
 - Representing this information as structured descriptive data
 (e.g., a table of policy changes with dates and impact descriptions).
 
-👉 We will also create a separate document summarizing the policies that have
+📌 [A separate document][1] was created summarizing the policies that have
 changed, their role in protecting juveniles, and how the changes affect them.
+
+[1]: 3_data_exploration/policy_impact_review.md
 
 ### ✅ Modeling Impact on Legal Representation and Case Outcomes  
 
-- We will collect and compare the **percentage of legally represented cases**
-before and after policy change.
+The percentage of legally represented cases before and after policy change was
+collected and compared.
 
-  👉 To keep our model practical and manageable:
-**Legal representation** will be modeled as a binary **yes/no** variable.
-We will not differentiate types of representation (e.g., NGO, private).
+👉 **To keep the model practical and manageable:**
 
-- We will collect and compare the **percentage of deportation outcomes**
-before and after each policy change.
+- Legal representation was modeled as a binary yes/no variable.
+- Types of representation (e.g., NGO, private) were not differentiated.
 
-  ⚠ **Limitation in this approach:**  
-Comparing deportation percentages alone doesn’t isolate the effect of legal
-representation, as other factors like case complexity and selection bias may
-influence outcomes.
+The percentage of deportation outcomes before and after each policy change was
+collected and compared.
 
-  👉 To address this, we will compare:
+⚠️ **Limitation in this approach:**
 
-- The **deportation rate in legally represented cases**
-before vs after the policy change.
-- The **deportation rate in unrepresented cases** before vs after the policy change.
+- Comparing deportation percentages alone doesn’t isolate the effect of legal representation,
+  as other factors like case complexity and selection bias may influence outcomes.
 
-We will also explore other possible factors, such as **language barriers**,
-where data allows.
+👉 **To address this, the following comparisons were made:**
+
+- The deportation rate in legally represented cases before vs after the policy change.
+- The deportation rate in unrepresented cases before vs after the policy change.
+- Other possible factors, such as language barriers, were also explored where
+  data allowed.
 
 ### 🧱 Possible Flaws or Limitations  
 
@@ -132,9 +120,9 @@ missing values (e.g., no outcome listed) or inconsistently reported fields
 This could reduce the reliability or comparability of some features.
 
 - **Generalization:** Not every case or region is the same,
-but our model looks at the system broadly.
+but the model examines the system broadly.
 
-- **No direct feedback from affected youth:** Our insights are based
+- **No direct feedback from affected youth:** The insights are based
 on secondhand reports and research, not lived experiences.
 
 - **Causation vs. correlation:** Our analysis may identify associations
@@ -154,95 +142,289 @@ not capture delayed impacts or gradual implementation phases.
 
 ---
 
-## Data
+## Data and Methodology
 
-### Dataset Source
+### Dataset Overview
 
-**EOIR Case Data:** [Data.gov](https://catalog.data.gov/dataset/eoir-case-data)
+**Executive Office for Immigration Review (EOIR) Case Data**  
+Source: [Data.gov](https://catalog.data.gov/dataset/eoir-case-data)
 
-The Executive Office for Immigration Review (EOIR) releases monthly case level  
-immigration court data through the U.S. Department of Justice. The dataset is  
-collected and updated regularly via official government systems and includes  
-information on individual court proceedings.
+Monthly case-level immigration court data are released by the EOIR through
+the U.S. Department of Justice. The dataset is collected and updated regularly
+via official government systems and includes information on individual court proceedings.
 
-Files included in this dataset (if applicable):
+### Population Represented
 
-- `[Schema_Related]` – brief description
-- `[Lookup]` – brief description
+The dataset represents juvenile immigrants (typically unaccompanied children) who:
 
-### Dataset Context
+- Were involved in U.S. immigration court proceedings between FY 2020-2025
+- Were identified as under 18 years old at the time of case filing
+- Were seeking various forms of relief (asylum, withholding of removal, etc.)
+- Represented diverse countries of origin, predominantly from Central America
+- Had varying access to legal representation across jurisdictions
 
-- The purpose of the dataset
+### Research Purpose
 
 The dataset was created to support analysis of how changes in U.S. immigration
 policy under the current administration have impacted:
 
-Access to legal representation for immigrant juveniles
+- Access to legal representation for immigrant juveniles
+- Case outcomes such as asylum granted, denied, or terminated
+- Processing times and procedural fairness in juvenile cases
+- Regional and demographic disparities in legal outcomes
 
-Case outcomes such as asylum granted, denied, or terminated
+### Data Files
 
-- The population or scenario it represents
-  The dataset represents juvenile immigrants (typically unaccompanied children)
-  who were:
+Files included in this dataset (available via Google Drive due to size limitations):
 
-Involved in U.S. immigration court proceedings between FY 2020 and FY 2025
+- **juvenile_cases_cleaned.csv.gz** - 1.8 million demographic and procedural records
+- **juvenile_history_cleaned.csv.gz** - Records linking juveniles to proceedings
+- **juvenile_proceedings_cleaned.csv.gz** - Records of appearances and decisions
+- **juvenile_reps_assigned.csv.gz** - Records of legal representation assignments
+- **tblLookup_Juvenile.csv** - Reference table for juvenile categories
+- **tblDecCode.csv** - Reference table for decision code descriptions
 
-Identified as being under 18 years old at the time of case filing
+**Note:** Due to the large size of these datasets, files are not included directly
+in this repository.
+To replicate the analysis,
+download these files from the shared [Google Drive](https://drive.google.com/drive/u/2/folders/1gv42BRnm6blapzoDEbYbFf6M1IXZJXcL)
+and place them in the working directory.
 
-Facing deportation, seeking asylum, or applying for other forms of immigration relief
+📌 For more details: [1_datasets](1_datasets/README.md)
 
-### For more details [1_datasets](1_datasets/README.md)
+### Data Preparation
 
-## Non-Technical Summary of the Data Analysis
+Raw data required significant preprocessing to transform it into an analyzable format.
+The data preparation process included:
 
-This project investigates how legal representation and case results for juvenile
-immigrants have shifted in response to federal immigration policies enacted
-between 2018 and 2025. Results indicate the following:
+- **Data Cleaning**: Removing duplicate records, handling missing values, and
+  correcting inconsistent entries
+- **Data Integration**: Merging separate tables to create comprehensive
+  juvenile case records
+- **Data Validation**: Implementing quality checks to ensure data integrity and consistency
+- **Standardization**: Normalizing fields like court locations and case types for
+  consistent analysis
 
-- Juveniles with legal representation are more likely to receive favorable
-  decisions (45.3% vs. 0.8% without representation).
-- Major policy changes align with changes in representation rates.
-- Demographic characteristics affect outcomes, but representation remains the
-  most reliable predictor.
+📌 For complete data preparation methodology and code: [2_data_preparation](2_data_preparation/README.md)
 
-Visual materials help communicate these relationships in an accessible way and
-can be found in the [notebook](4_data_analysis.ipynb).
+### Exploratory Data Analysis
 
-Although the dataset is large and informative, limitations such as missing data
-and unmeasured local influences should be considered when interpreting results.
+Before conducting formal hypothesis testing, exploratory analysis was performed to:
 
-## Technical Summary of the Data Analysis
+- **Identify Patterns**: Visualize distributions and relationships between variables
+- **Detect Anomalies**: Find outliers and unusual patterns requiring investigation
+- **Assess Data Quality**: Evaluate the completeness and reliability of key variables
+- **Inform Modeling**: Determine appropriate statistical approaches based on
+  data characteristics
 
-The analysis is based on four linked datasets examining how immigration policy
-affects juvenile immigrants' legal representation and case outcomes. Findings
-show a clear relationship between representation and favorable case results.
+📌 For detailed exploration findings: [3_data_exploration](3_data_exploration/README.md)
 
-### Datasets Used
+### Analytical Approach
 
-- **juvenile_cases_cleaned.csv.gz**: 1.8 million demographic and procedural records
-- **juvenile_history_cleaned.csv.gz**: Records linking juveniles to proceedings
-- **juvenile_proceedings_cleaned.csv.gz**: Records of appearances and decisions
-- **tblLookup_Juvenile.csv**: Reference table for juvenile categories
-- **tblDecCode.csv**: Reference table for decision code descriptions
-- **tbl_RepsAssigned.csv**: Reference table for representation
+This study examined how legal representation and case outcomes for juvenile
+immigrants evolved across major U.S. federal immigration policy periods
+(2018–2025).  
 
-### For more details [4_data_analysis](4_data_analysis/README.md)
+The analysis included:
+
+1. **Time Series Analysis:**  
+   Trends in legal representation and case outcomes were visualized over
+   time and by policy period.
+
+2. **Statistical Testing:**  
+   Associations between policy era, legal representation, and case outcomes
+   were assessed using chi-square tests.  
+   Effect sizes (Cramer's V) were
+   calculated to evaluate the practical significance of observed relationships.
+
+3. **Regression Modeling:**  
+   Logistic regression was used to estimate the influence of legal
+   representation, policy era, age, and gender on case outcomes.
+
+Additionally, because these policy periods closely align with presidential
+terms, our analysis also captures the broader influence of different political
+administrations on juvenile immigration outcomes.
+
+#### Analytical Constraints & Limitations
+
+This analytical approach was shaped by several constraints and design decisions:
+
+- **Omitted Variables and Unused Dimensions**  
+  Certain variables and analysis directions—such as nationality and court
+  region—were considered in early planning but ultimately not included.  
+  - Nationality was excluded from the regression due to high cardinality and
+  interpretability concerns.
+  - Court or regional-level comparisons were not
+  pursued due to time constraints, data complexity, and the team's limited
+  capacity.  
+
+  While both areas could offer valuable insights, the study focused
+  on core variables to ensure a clear and tractable analysis.
+
+- **Data Structure and Quality Limitations**  
+  The dataset was very large but often inconsistent. Some portions included missing,
+  inaccurate, or corrupted entries. Others displayed structural complexity,
+  making it difficult to perform clean and comprehensive comparisons.
+
+- **Temporal Ambiguity in Policy Changes**  
+  Precise start and end dates for immigration policy changes were often unclear
+  or not verifiable through direct government sources.
+
+  To address this, policy periods were defined based on presidential terms and
+  anchored in major documented immigration policy changes during each era, as:
+  - **Trump Era I (Zero Tolerance Policy Era)**: *April 2018 – January 2021*  
+  - **Biden Era (Policy Stability)**: *January 2021 – April 2025*  
+  - **Trump Era II (Funding Cut Era)**: *April 2025 – Present*
+
+---
+
+## Key Findings
+
+The comprehensive analysis revealed several important insights about immigration
+policy impacts on juvenile cases:
+
+### 1. Policy Impact on Case Outcomes
+
+The Biden era was associated with significantly higher odds of favorable outcomes
+compared to the Trump eras.  
+Policy era showed a statistically significant but small relationship with case outcomes
+**(χ² = 29,427.96, p < 0.001, Cramer's V = 0.177)**.
+
+**Favorable Outcome Rates by Policy Era:**
+
+- **Biden Era (Jan 2021 – Apr 2025)**: 37.1% favorable outcomes
+- **Trump Era I (Apr 2018 – Jan 2021)**: 20.6% favorable outcomes  
+- **Trump Era II (Apr 2025 – Present)**: 22.7% favorable outcomes
+
+### 2. Legal Representation Patterns
+
+Legal representation rates showed a negligible relationship with policy changes
+**(χ² = 1,643.51, p < 0.001, Cramer's V = 0.042)**.  
+Representation rates averaged 37-40% across all policy periods, with some fluctuation
+but no clear systematic pattern.
+
+**Representation Rates by Policy Era:**
+
+- **Biden Era**: 43.3% represented
+- **Trump Era I**: 40.1% represented
+- **Trump Era II**: 51.1% represented
+
+### 3. Critical Impact of Legal Representation
+
+Legal representation emerged as the strongest predictor of favorable outcomes,
+with a medium effect size **(χ² = 90,865.53, p < 0.001, Cramer's V = 0.310)**.  
+Juveniles with legal representation were over 5 times more likely to achieve
+favorable outcomes **(odds ratio: 5.46)**.
+
+**Outcome Rates by Representation Status:**
+
+- **Represented cases**: 46.9% favorable outcomes
+- **Unrepresented cases**: 18.0% favorable outcomes
+
+### 4. Demographic Factors
+
+The analysis revealed modest but significant demographic effects:
+
+- **Gender**: Females had slightly higher odds of favorable outcomes
+  **(odds ratio: 1.24)**
+- **Age**: Younger children (under 12) and older teens (16-17) faced lower
+  odds of success **(odds ratios: 0.73 and 0.91, respectively)**  
+  Ages 12-15 had no significant difference in outcomes compared to the
+  reference group **(odds ratio: 1.00)**
+
+### 5. Model Performance and Limitations
+
+The predictive model achieved moderate performance **(accuracy: 0.689, AUC-ROC: 0.723)**,
+indicating meaningful but limited predictive power.  
+This suggests that substantial factors influencing case outcomes remain unmeasured
+in the available data.
+
+📌 Visualizations supporting these findings are available in the
+[analysis notebook](4_data_analysis/4_data_analysis.ipynb).
+
+📌 Full methodology and extended results can be found in
+[4_data_analysis/README.md](4_data_analysis/README.md).
+
+---
+
+## Technical Implementation
+
+### Technologies Used
+
+The data analysis was performed using the following technologies:
+
+- **Python 3.8+**: Core programming language
+- **Jupyter Notebooks**: Interactive analysis environment
+- **pandas 1.3.0+**: Data manipulation and analysis
+- **numpy 1.20.0+**: Numerical operations
+- **matplotlib 3.4.0+**: Data visualization
+- **matplotlib.dates**: Handling dates in visualizations
+- **seaborn**: Statistical data visualization (built on matplotlib)
+- **statsmodels**: Statistical modeling and hypothesis testing
+- **scipy**: Scientific computing and advanced statistical functions
+- **scikit-learn 0.24.0+**: Data splitting (train_test_split) and
+  classification metrics(accuracy_score, roc_auc_score)
+
+### Development Environment and Tools
+
+- **Version Control**: Git with GitHub  
+- **Code Editor**: Visual Studio Code (VSCode) with Jupyter extension  
+- **Analysis Environment**: Jupyter Notebooks (opened and edited via VSCode)  
+- **Collaboration Tools**: Slack, GitHub Issues, Google Drive, Google Docs  
+- **Documentation**: Markdown  
+
+### Reproducibility
+
+To reproduce the analysis:
+
+1. Clone this repository
+2. Download the datasets from the [Google Drive link](https://drive.google.com/drive/u/2/folders/1gv42BRnm6blapzoDEbYbFf6M1IXZJXcL)
+3. Place dataset files in the `4_data_analysis/` directory
+4. Run the Jupyter notebooks in sequence
+
+📌 For detailed setup instructions, see [4_data_analysis/README.md](4_data_analysis/README.md).
+
+---
+
+## Future Work & Recommendations
+
+Based on the findings, several directions for future research and policy
+recommendations emerge:
+
+### Research Extensions
+
+- Conduct longitudinal studies tracking outcomes for juveniles over extended timeframes
+- Investigate regional variations in representation access and policy implementation
+- Explore correlations between local NGO funding and representation rates
+- Develop predictive models for case outcomes based on multiple variables
+
+### Policy Recommendations
+
+- Increase funding for legal aid organizations serving juvenile immigrants
+- Implement specialized training for immigration judges handling juvenile cases
+- Establish mandatory representation requirements for all juvenile cases
+- Create streamlined processes for asylum applications from vulnerable populations
+
+📌 For comprehensive methodological details and additional recommendations:
+[4_data_analysis](4_data_analysis/README.md)
 
 ---
 
 ## Contributors
 
-List each team member (or yourself) and their role or focus area. For example:
+This research was conducted through collaborative efforts by a multidisciplinary
+team:
 
-- **[Ammar Ibrahim](https://github.com/AmmarIbrahimTech)**
-- **[Amro Mohamed](https://github.com/Elshikh-Amro)**
-- **[Azza Omer](https://github.com/AzzaOmer1)**
-- **[Banu Ozyilmaz](https://github.com/doctorbanu)**
-- **[Gennadii Ershov](https://github.com/imwaymaran)**
-- **[Muhammad Shahroz](https://github.com/Shahroz657)**
-- **[Muhammet Ali Isik](https://github.com/misik-eng)**
-- **[Ramon Colmenares](https://github.com/RamonColmenares)**
+- [Ammar Ibrahim](https://github.com/AmmarIbrahimTech)  
+- [Amro Mohamed](https://github.com/Elshikh-Amro)  
+- [Azza Omer](https://github.com/AzzaOmer1)  
+- [Banu Ozyilmaz](https://github.com/doctorbanu)  
+- [Gennadii Ershov](https://github.com/imwaymaran)  
+- [Muhammad Shahroz](https://github.com/Shahroz657)  
+- [Muhammet Ali Isik](https://github.com/misik-eng)  
+- [Ramon Colmenares](https://github.com/RamonColmenares)  
 
 ## Acknowledgments
 
-Special thanks to the **MIT Emerging Talent Program** for their guidance and feedback.
+Special thanks to the **MIT Emerging Talent Program** for their guidance and feedback
+throughout the project.
