@@ -50,7 +50,7 @@ including context, constraints, and objectives: [0_domain_study](0_domain_study/
 
 ## Non-Technical Explanation of the Domain Model  
 
-![Case_Modeling_image](README_images/Case_Modeling_image.png)
+![Case_Modeling_image](readme_images/Case_Modeling_image.png)
 
 The domain model translates the real-world system of immigration policy,
 legal representation, and juvenile case outcomes into analyzable data.
@@ -285,7 +285,7 @@ This analytical approach was shaped by several constraints and design decisions:
 
 ## Key Findings
 
-![Key_Findings_image](README_images/Key_Findings_image.png)
+![Key_Findings_image](readme_images/Key_Findings_image.png)
 
 The comprehensive analysis revealed several important insights about immigration
 policy impacts on juvenile cases:
