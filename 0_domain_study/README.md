@@ -59,7 +59,9 @@ risk of deportation for vulnerable immigrant youths.
 | [The Guardian – Children left alone](https://www.theguardian.com/us-news/ng-interactive/2025/jun/05/trumps-immigration-children-unaccompanied-minors) | Details the emotional and legal isolation faced by migrant children under hardline policies. |
 | [The Imprint – Kids used as bait](https://imprintnews.org/top-stories/the-children-are-being-used-as-bait/261090) | Investigates how prolonged detention and policy shifts leave immigrant children without resolution or support. |
 
-## Group Understanding & breakingdown of the background review
+## Group Understanding & Breaking Down of the Background Review
+
+![iceberg_model.png](./iceberg_model.png)
 
 Systems thinking was applied to the topic domain and the four previously cited
 articles to understand the complex, interconnected issues immigrant juveniles face
