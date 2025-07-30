@@ -34,8 +34,9 @@ This project investigates how legal representation and case results for juvenile
 immigrants have shifted in response to federal immigration policies enacted
 between 2018 and 2025. Results indicate the following:
 
-* Legal representation is the strongest predictor of favorable outcomes;
-juveniles with representation are over 5× more likely to succeed than those without.
+* Legal representation is the strongest predictor of favorable outcomes;  
+juveniles with representation are over **5× more likely** to succeed
+than those without.
 * Major policy changes align with changes in cases outcomes:
   > Biden Era improves outcomes (37.1% favorable) compared to Trump I (20.6%)
   and Trump II (22.7%).
@@ -55,7 +56,8 @@ and unmeasured local influences should be considered when interpreting results.
 
 ## Technical Summary
 
-The analysis is based on four linked datasets examining how immigration policy
+The analysis is based on four linked datasets and two lookup tables,
+examining how immigration policy
 affects juvenile immigrants' legal representation and case outcomes. Findings
 show a clear relationship between representation and favorable case results.
 
@@ -63,9 +65,7 @@ show a clear relationship between representation and favorable case results.
 
 * **juvenile_cases_cleaned.csv.gz**: 1.8 million demographic and procedural records
 * **juvenile_history_cleaned.csv.gz**: Records linking juveniles to proceedings
-
 * **juvenile_reps_assigned.csv.gz**: Records of juvenile legal representation
-
 * **juvenile_proceedings_cleaned.csv.gz**: Records of proceedings and decisions
 * **tblLookup_Juvenile.csv**: Reference table for juvenile categories
 * **tblDecCode.csv**: Reference table for decision code descriptions
@@ -93,14 +93,10 @@ show a clear relationship between representation and favorable case results.
 ### Analytical Caveats
 
 * Missing values in some variables may slightly limit the precision of results.
-
 * Policy implementation may vary by court location (not captured here).
-
 * Other unmeasured factors (e.g., socioeconomic status or language barriers)
   could influence outcomes.
-
 * Results are correlational, not causal.
-
 * Trump Era II (2025–) data are still incomplete due to the recency of this period.
 
 ---
