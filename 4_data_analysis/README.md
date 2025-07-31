@@ -14,6 +14,7 @@ case outcomes for immigrant juveniles seeking protection.
   * `juvenile_cases_cleaned.csv.gz`: Case-level data with demographics
   * `juvenile_history_cleaned.csv.gz`: History records linked to juvenile cases
   * `juvenile_proceedings_cleaned.csv.gz`: Decision and hearing-level data
+  * `juvenile_reps_assigned.csv.gz`: Records of juvenile legal representation
   * `tblLookup_Juvenile.csv`: Reference table for juvenile categories
   * `tblDecCode.csv`: Reference table for decision code descriptions
 
@@ -33,11 +34,19 @@ This project investigates how legal representation and case results for juvenile
 immigrants have shifted in response to federal immigration policies enacted
 between 2018 and 2025. Results indicate the following:
 
-* Juveniles with legal representation are more likely to receive favorable
-  decisions (45.3% vs. 0.8% without representation).
-* Major policy changes align with changes in representation rates.
-* Demographic characteristics affect outcomes, but representation remains the
-  most reliable predictor.
+* Legal representation is the strongest predictor of favorable outcomes;  
+juveniles with representation are over **5× more likely** to succeed
+than those without.
+* Major policy changes align with changes in cases outcomes:
+  > Biden Era improves outcomes (37.1% favorable) compared to Trump I (20.6%)
+  and Trump II (22.7%).
+
+   However, policy changes have only a small effect size compared to representation.
+* Representation rates are only slightly affected by policy changes:
+  > Representation rates were 43% for Biden, 40% for Trump I, and 51% for
+  Trump II's first era
+* Demographic characteristics slightly affect outcomes,
+  but representation remains the most reliable predictor.
 
 Visual materials help communicate these relationships in an accessible way and
 can be found in the [notebook](4_data_analysis.ipynb).
@@ -47,7 +56,8 @@ and unmeasured local influences should be considered when interpreting results.
 
 ## Technical Summary
 
-The analysis is based on three linked datasets examining how immigration policy
+The analysis is based on four linked datasets and two lookup tables,
+examining how immigration policy
 affects juvenile immigrants' legal representation and case outcomes. Findings
 show a clear relationship between representation and favorable case results.
 
@@ -55,7 +65,8 @@ show a clear relationship between representation and favorable case results.
 
 * **juvenile_cases_cleaned.csv.gz**: 1.8 million demographic and procedural records
 * **juvenile_history_cleaned.csv.gz**: Records linking juveniles to proceedings
-* **juvenile_proceedings_cleaned.csv.gz**: Records of appearances and decisions
+* **juvenile_reps_assigned.csv.gz**: Records of juvenile legal representation
+* **juvenile_proceedings_cleaned.csv.gz**: Records of proceedings and decisions
 * **tblLookup_Juvenile.csv**: Reference table for juvenile categories
 * **tblDecCode.csv**: Reference table for decision code descriptions
 
@@ -67,12 +78,11 @@ show a clear relationship between representation and favorable case results.
    * Analysis of patterns across policy eras
 
 2. **Chi-Square Tests**
-   * Association tests between outcomes and representation
-   * Comparisons across demographic groups
+   * Association tests between outcomes and representation, and policy eras
 
 3. **Logistic Regression**
-   * Probability of favorable outcomes modeled using multiple factors
-   * Controls for demographic and case characteristics
+   * Modeled probability of favorable outcomes while controlling for policy era,
+  gender, and age.
 
 ### Method Rationale
 
@@ -82,30 +92,12 @@ show a clear relationship between representation and favorable case results.
 
 ### Analytical Caveats
 
-* High rates of missing values may distort estimates
-* Legal representation is not directly recorded in the selected tables.
-  Cases marked as “absentia” are treated as likely unrepresented,
-  based on the assumption that absence during hearings often reflects lack of
-  legal counsel. Case outcomes were classified using decision codes from tblDecCode.csv
-* Representation quality cannot be measured, affecting interpretation
-* The study identifies correlations, but establishing causation would require
-  experimental research design
-
-### Key Results
-
-1. **Representation Effects**
-   * Juveniles with legal representation have significantly higher favorable outcomes
-     (approximately 45.3%) compared to those without representation
-     (approximately 0.8%)
-   * Overall legal representation rate is around 65.7%
-
-2. **Policy Transitions**
-   * Analysis shows shifts in representation rates across different policy eras
-   * Data segmented by policy periods (Trump Era I, Biden Era, Trump Era II)
-
-3. **Cross-Tabulation Analysis**
-   * Strong statistical relationship between legal representation and case outcomes
-   * Chi-square tests confirm the significance of this relationship
+* Missing values in some variables may slightly limit the precision of results.
+* Policy implementation may vary by court location (not captured here).
+* Other unmeasured factors (e.g., socioeconomic status or language barriers)
+  could influence outcomes.
+* Results are correlational, not causal.
+* Trump Era II (2025–) data are still incomplete due to the recency of this period.
 
 ---
 

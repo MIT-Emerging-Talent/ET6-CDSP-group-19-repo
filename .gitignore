@@ -5,3 +5,14 @@ venv/
 *.db
 *.idea
 *.ruff_cache
+
+# datasets
+4_data_analysis/juvenile_cases_cleaned.csv.gz
+4_data_analysis/juvenile_history_cleaned.csv.gz
+4_data_analysis/juvenile_proceedings_cleaned.csv.gz
+4_data_analysis/juvenile_reps_assigned.csv.gz
+4_data_analysis/tblDecCode.csv
+4_data_analysis/tblLookup_Juvenile.csv
+
+
+.gitignore
