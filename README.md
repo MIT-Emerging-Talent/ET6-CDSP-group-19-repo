@@ -50,6 +50,8 @@ including context, constraints, and objectives: [0_domain_study](0_domain_study/
 
 ## Non-Technical Explanation of the Domain Model  
 
+![case_modeling_image](readme_visuals/case_modeling_image.png)
+
 The domain model translates the real-world system of immigration policy,
 legal representation, and juvenile case outcomes into analyzable data.
 Below is how the data was modeled and what limitations
@@ -135,6 +137,9 @@ countries, or shifts in legal aid funding).
 representation may systematically differ from those who don't (e.g.,
 less/more complex cases, worse/better economic resources, living in rural or urban
 areas), which could confound our analysis of representation effects.
+
+- **Temporal ambiguity in policy definitions:** Policy changes might lack clearly
+  defined start and end dates, making temporal classification difficult.
 
 - **Time lag effects:** Policy changes may take months to fully implement
 and show measurable effects. Our before/after comparison approach may
@@ -279,6 +284,8 @@ This analytical approach was shaped by several constraints and design decisions:
 ---
 
 ## Key Findings
+
+![key_findings_image](readme_visuals/key_findings_image.png)
 
 The comprehensive analysis revealed several important insights about immigration
 policy impacts on juvenile cases:
