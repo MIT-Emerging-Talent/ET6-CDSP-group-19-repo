@@ -41,9 +41,6 @@ and work directly with young people facing deportation or seeking protection.
 > - **Digital habits:** Keeps up with immigration policy updates on Twitter; shares
 >   resources in legal aid forums and occasionally on Medium; mainly communicates
 >   via email and webinars  
-> - **How she would use our website:** Utilizes data visualizations during training
->   sessions; downloads statistics for grant proposals; shares key findings with
->   her network through email, presentations, or occasionally via Medium articles
 
 ### Legal Scholars & Immigration Policy Researchers
 
@@ -71,9 +68,6 @@ reforms.
 > - **Digital habits:** Frequently searches academic journals and repositories; attends
 >   webinars and conferences; collaborates through shared datasets and code
 >   repositories; occasionally shares findings on Medium
-> - **How he would use our website:** Integrates datasets into comparative analyses;
->   cites findings in policy briefs for government and NGO stakeholders; recommends
->   research reports to peers in academia and policy circles
 
 ## How Will We Reach Them?
 
@@ -91,13 +85,18 @@ both NGOs and researchers. This platform offers:
 - **Scalability:** The site can be updated and expanded as new data or feedback
   emerges, and can serve as a hub for collaboration among advocates and scholars.
 
+Reflecting on the needs outlined in the personas above, the website is designed to
+support users like Elena and David by providing accessible data visualizations,
+downloadable statistics, and sharable content suitable for advocacy and
+research dissemination.
+
 [1]:https://d2qqofrfkbwcrl.cloudfront.net/
 
 ### Supporting Channels
 
 To broaden our reach, we plan to share select findings as accessible
-infographics on [Medium][2], leveraging the platform’s wide audience and
-storytelling strengths.
+infographics on [Medium][2], a popular publishing platform geared toward
+thoughtful commentary and accessible storytelling.
 This will help bridge the gap between technical research
 and public understanding, while directing interested readers to our main website.
 
