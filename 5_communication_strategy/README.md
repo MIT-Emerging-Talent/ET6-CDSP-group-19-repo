@@ -73,7 +73,7 @@ reforms.
 
 ### Primary Channel: Interactive Website
 
-We determined that an [interactive website][1] is the most effective way to reach
+We determined that an [interactive website][1]* is the most effective way to reach
 both NGOs and researchers. This platform offers:
 
 - **Accessible, multi-layered content:** From bite-sized key findings and data
@@ -141,3 +141,8 @@ where they are, while always grounding our communication in evidence and empathy
 *For more details, visit the interactive website or contact our team.  
 We welcome feedback and collaboration as we continue to expand this resource
 for the field.*
+
+***Note:** [A separate repository][3] was created for the website to avoid configuration
+conflicts with the main repo.
+
+[3]:https://github.com/RamonColmenares/ET6-CDSP-group-19-repo-web
