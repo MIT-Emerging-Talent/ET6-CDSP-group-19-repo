@@ -90,7 +90,7 @@ support users like Elena and David by providing accessible data visualizations,
 downloadable statistics, and sharable content suitable for advocacy and
 research dissemination.
 
-[1]:https://d20rt4fp7i83k3.cloudfront.net/
+[1]:https://barrierstojustice.me
 
 ### Supporting Channels
 
