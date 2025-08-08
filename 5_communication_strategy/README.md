@@ -109,6 +109,25 @@ website and submitted for publication to journals such as Harvard Law Review.)
 
 [2]:https://medium.com/
 
+### Direct Outreach via Email
+
+While our website serves as the main platform for our research, we recognize that
+even the most comprehensive resources require proactive promotion to reach their
+intended audiences. Direct outreach bridges this discovery gap by ensuring our
+work reaches key organizations and researchers who can benefit from and build
+upon our findings.
+
+To support this effort, we plan to contact key organizations, particularly KIND and
+researchers focused on immigration policy, through personalized emails. These
+messages will briefly present our main findings and invite recipients to explore
+our interactive website and GitHub repository. We will also include a summary PDF
+for those seeking additional detail and highlight our team’s diverse academic
+backgrounds and shared commitment to collaborative, impact-driven work.
+
+This personalized approach complements our digital strategy and helps ensure our
+research reaches those best positioned to apply its insights in advocacy, policy
+development, and beyond.
+
 ## What Do We Want Them to Learn?
 
 - How legal representation or lack thereof affects case outcomes for immigrant
