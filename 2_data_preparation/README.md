@@ -5,8 +5,7 @@ This folder contains data cleaning notebooks in
 analysis, focusing on juvenile immigration cases.
 
 Cleaned datasets are stored externally due to size constraints:  
-[View Cleaned Data in Cloud Storage](
-https://drive.google.com/drive/folders/1C8HEBVoI0GHZL9kh40bklIkWBWiGIfpu?usp=share_link)
+[View Cleaned Data in Cloud Storage](https://drive.google.com/drive/folders/1C8HEBVoI0GHZL9kh40bklIkWBWiGIfpu?usp=share_link)
 
 ## Cleaning Notebooks
 
