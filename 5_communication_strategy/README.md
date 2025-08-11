@@ -128,6 +128,10 @@ This personalized approach complements our digital strategy and helps ensure our
 research reaches those best positioned to apply its insights in advocacy, policy
 development, and beyond.
 
+For the text drafts checkout this [Document][4]
+
+[4]:https://docs.google.com/document/d/1Avwb9M8sb1oPIryZJnwRTQ5xs7UzTmSVQUoEo652aZs/edit?tab=t.0
+
 ## What Do We Want Them to Learn?
 
 - How legal representation or lack thereof affects case outcomes for immigrant
