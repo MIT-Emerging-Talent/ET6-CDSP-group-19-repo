@@ -1,4 +1,9 @@
-<!-- this template is for inspiration, feel free to change it however you like! -->
+<!-- markdownlint-disable MD024 -->
+<!--
+  MD024 is disabled here because we intentionally repeat headers like 
+  our names. These duplicates are purposeful and improve readability.
+  Ignoring this rule prevents unnecessary lint warnings for valid cases.
+-->
 # 🚧 Constraints
 
 Some boundaries around our project to guide effective collaboration and planning.
@@ -127,11 +132,9 @@ which can affect the overall workflow and productivity.
 
 ## Milestone 2
 
-## Individual Constraints
+### Individual Constraints
 
----
-
-## Gennadii Ershov
+#### Gennadii Ershov
 
 - Extremely limited time availability over the past few weeks.
 - No prior experience working with such a large dataset.
@@ -139,7 +142,7 @@ which can affect the overall workflow and productivity.
 which makes interpreting features and
 trends more challenging.
 
-## Banu Ozyilmaz
+#### Banu Ozyilmaz
 
 - I don’t have much experience with data processing
 tools and technical workflows, which could make some tasks take longer.
@@ -150,7 +153,7 @@ the deadlines of this project.
 - I often spend extra time trying to fully understand concepts
 , which sometimes slows down my progress.
 
-## Muhammad Shahroz
+#### Muhammad Shahroz
 
 - Haven’t been able to attend many team meetings due to
 scheduling conflicts and other commitments.
@@ -158,7 +161,7 @@ scheduling conflicts and other commitments.
 - Communication with the team has been a challenge for me this milestone.
 - Not fully comfortable yet with large datasets or immigration data.
 
-## Amro
+#### Amro Mohamed
 
 - Limited access to official court-level datasets,
 especially recent ones for FY 2025.
@@ -169,7 +172,7 @@ representation may not be directly included).
 - Time constraints to complete the milestone before a deadline.
 - Technical barriers like managing large CSVs.
 
-## Azza Omer
+#### Azza Omer
 
 - I haven’t worked with a dataset this large before, so it’s
 been challenging to manage and understand.
@@ -177,3 +180,87 @@ been challenging to manage and understand.
 which makes it tough to make sense of the data and spot patterns.
 - It's technically challenging to handle large CSV files—they
 can be slow or difficult to work with.
+
+---
+
+## Milestone 3
+
+### Individual Constraints
+
+#### Banu Ozyilmaz
+
+- The dataset is large and complex, which makes it hard to process and takes time.
+- My technical skills are still growing, so I need to use methods that
+  I can handle well.
+- Time zone differences and other responsibilities make it hard to work together
+  often.
+
+#### Muhammad Shahroz
+
+- May run into issues with messy data that sometimes requires spending too
+  much time to just clean it up.
+- Still getting used to picking the right tools or methods for the job.
+- Other projects or time clashes meant I can’t always contribute as much as I wanted.
+  
+#### Amro Mohamed
+
+- Deciding which method to use is challenging due to the nature and quality of
+  the data.
+- Interpreting the results requires careful consideration to ensure accuracy
+  and relevance.
+  
+#### Muhammet Ali Isik
+
+- One of the primary challenges is the sheer size and complexity of the dataset,
+  which requires a significant amount of time for cleaning and preparation.
+- Deciding on the most effective analytical approach is difficult, as my technical
+  skills were still developing and the data had unique characteristics.
+- Team coordination is also a bit tricky due to time zone differences and
+  conflicting schedules.
+
+#### Gennadii Ershov
+
+- Have limited time due to other courses and work.
+- Have limited experience in planning clean analysis workflows.
+- Coordination challenges from time zones and commitments.
+  
+---
+
+## Milestone 4
+
+### Individual Constraints
+
+#### Banu Ozyilmaz
+
+- I don’t have any experience using public communication tools like infographics
+  or visual storytelling, which might be helpful for this milestone.
+- Between time zone issues and other commitments, coordination can sometimes be tricky.
+- I feel uncomfortable sharing results publicly, especially when I’m not familiar
+  with the audience.
+
+#### Muhammad Shahroz
+
+- Haven’t used many advanced visualization or communication tools yet,
+  so there’s a learning curve.
+- Time zones and busy schedules sometimes makes working together
+  or sharing drafts tricky.
+
+### Amro Mohamed
+
+- Choosing the appropriate audience for actionable results and deciding on the
+  best artifact to communicate with them.
+- Managing limited team time availability.
+
+#### Muhammet Ali Isik
+
+- I have very limited experience with advanced presentation and public
+  communication tools, which is a steep learning curve for me.
+- Another challenge is overcoming my own hesitation about presenting our results
+  publicly and coordinating with the team to ensure we had a unified and
+  cohesive message.
+
+#### Gennadii Ershov
+
+- Have limited time due to other courses and work.
+- No prior experience with visualization techniques outside of Python scope.
+- Coordination challenges due to time zones and commitments.
