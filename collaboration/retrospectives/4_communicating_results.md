@@ -1,3 +1,10 @@
+<!-- markdownlint-disable MD024 -->
+<!--
+  MD024 is disabled here because we intentionally repeat headers like 
+  "Contributions", "Challenges" and "Progress" in each member's individual
+  retrospectives. These duplicates are purposeful, so ignoring
+  this rule prevents unnecessary lint warnings for valid cases.
+-->
 # Milestone 4: Communicating Results
 
 **Milestone dates:** July 22 – August 11
@@ -99,7 +106,7 @@ we've learned from working together.
 
 ### Banu Ozyilmaz
 
-#### Individual Contributions
+#### Contributions
 
 - Drafted the document identifying our target audience, their capabilities,
   constraints, and effective communication approaches.
@@ -129,3 +136,108 @@ we've learned from working together.
   and legal scholars, learning how to balance formality with clarity.
 - I learned how to plan communication across multiple channels (website, email, etc.)
   and some new channels like Medium.
+
+### Gennadii Ershov
+
+#### Contributions
+
+- Participated in Zoom calls to discuss and plan how we would accomplish the
+  current milestone.  
+- Refactored multiple cleaning notebooks to improve code structure, readability,
+  and maintainability.  
+- Updated `2_data_preparation` README to reflect the new modular workflow and
+  documented each notebook’s purpose for clarity.  
+
+#### Challenges
+
+- Adjusting to asynchronous coordination while balancing other commitments made
+  it harder to maintain momentum and alignment.  
+- Converting highly technical cleaning and processing steps into language accessible
+  for non-technical audiences required multiple iterations.  
+- Managing several rounds of revisions within limited time while maintaining code
+  quality and clarity.  
+
+#### Progress
+
+- Strengthened skills in organizing and structuring large-scale cleaning workflows
+  for collaborative projects.  
+- Improved ability to document technical processes clearly for both internal and
+  external audiences.  
+- Gained experience in balancing precision with accessibility when communicating
+  technical work to different audiences.  
+
+### Muhammet Ali Isik
+
+#### Contributions
+
+- Created a detailed peer review document for Group 20.
+- Conducted a comprehensive review of our repository, identifying methods and
+  potential errors.
+- Actively participated in team meetings and contributed to discussions.
+- Fixed broken links within the 5_communication_strategy/README.md file.
+- Made minor edits to the 4_data_analysis/README.md file.
+- Reviewed and independently applied the notebooks in the data preparation
+  section to understand the process.
+- Drafted a direct audience outreach email template.
+
+#### Challenges
+
+- Since I wasn't involved in the initial data preparation, it took extra time to
+  review the notebooks individually to fully grasp the process.
+  The work was made easier when it was later divided into separate sections.
+- Coordinating with team members across different time zones and personal schedules
+  sometimes created delays in feedback and revisions.
+
+#### Progress
+
+- Improved my ability to review and analyze complex code and documents by focusing
+  on identifying underlying methods and potential issues.
+- Gained a deeper understanding of the data preparation workflow, which enhanced
+  my technical knowledge.
+- Developed better communication and time management skills by coordinating with
+  teammates and adapting to different schedules.
+
+### Amro Mohamed
+
+#### Contribution
+
+- Learned the importance of tailoring project communication to the target audience.
+- Focused on selecting the most suitable format—report, visualization, or
+  presentation—to convey findings effectively.
+- Ensured clarity and relevance by matching content to the chosen format.
+  
+#### Challenges
+
+- Faced difficulty in choosing from a wide range of possible communication formats.
+- Needed continuous alignment among team members to maintain consistency in work
+  division.
+  
+#### Progress
+
+- Developed a more systematic approach to selecting communication channels and formats.
+- Gained practical experience in adapting content for different audiences.
+- Improved coordination and efficiency in team collaboration compared to previous
+  milestones.
+
+### Muhammad Shahroz
+
+#### Contribution
+
+- Gained a deeper understanding of collaborative work in data analysis and project
+  deliverables.
+- Learned to break tasks into manageable parts and share progress regularly.
+- Stayed adaptable to changes during the project.
+- Improved skills in coordinating with team members and managing timelines.
+- Ensured outputs were clear, accurate, and aligned with project goals.
+
+#### Challenges
+
+- Navigated differences in working styles among team members.
+- Dealt with varied technical approaches that required alignment.
+- Needed to agree on tools and methods to maintain consistency across the project.
+
+#### Progress
+
+- Strengthened teamwork and communication skills in a data-driven environment.
+- Became more efficient in organizing tasks and tracking progress.
+- Increased ability to adapt workflows to maintain quality and consistency.
