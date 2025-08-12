@@ -200,7 +200,8 @@ reformatting columns, or filtering based on age.
 
 #### Ramon Colmenares
 
-- Understand the project, the used dataset and how to made a website that reflect all the progress
+- Understand the project, the used dataset and how to made a website that
+ reflect all the progress
 - Made local experiments with the dataset and the notebooks
 
 ---
