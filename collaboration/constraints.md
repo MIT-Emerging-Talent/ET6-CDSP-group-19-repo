@@ -273,4 +273,5 @@ can be slow or difficult to work with.
 #### Ramon Colmenares
 
 - Have limited time due to other courses and work.
-- No prior experience with visualization techniques outside of Python, had to learn more about plotly
+- No prior experience with visualization techniques outside of Python
+- Had to learn more about plotly
