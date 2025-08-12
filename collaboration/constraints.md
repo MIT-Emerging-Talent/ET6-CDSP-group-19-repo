@@ -224,6 +224,11 @@ can be slow or difficult to work with.
 - Have limited experience in planning clean analysis workflows.
 - Coordination challenges from time zones and commitments.
   
+#### Ramon Colmenares
+
+- Have limited time due to work
+- Coordination challenges from time zones and commitments.
+
 ---
 
 ## Milestone 4
@@ -264,3 +269,8 @@ can be slow or difficult to work with.
 - Have limited time due to other courses and work.
 - No prior experience with visualization techniques outside of Python scope.
 - Coordination challenges due to time zones and commitments.
+
+#### Ramon Colmenares
+
+- Have limited time due to other courses and work.
+- No prior experience with visualization techniques outside of Python, had to learn more about plotly

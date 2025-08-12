@@ -241,3 +241,18 @@ we've learned from working together.
 - Strengthened teamwork and communication skills in a data-driven environment.
 - Became more efficient in organizing tasks and tracking progress.
 - Increased ability to adapt workflows to maintain quality and consistency.
+
+### Ramon Colmenare
+
+#### Contribution
+
+- Participate on team meetings to check the communication approach
+- Made improvements on the website with the feedback of teammates
+
+#### Challenges
+
+- Technical challenges regarding, domain, hosting of the website.
+
+#### Progress
+
+- Complete functional V1 version of the website

@@ -303,3 +303,19 @@ what we’ve learned from working together during this phase.
 - Built proficiency in technical documentation and process standardization
 - Strengthened skills in providing technical guidance and mentorship
   to team members
+
+### Ramon Colmenares
+
+#### Contributions
+
+- Analyze and read the project to catch up
+- Identify where I can contribute
+- Starting building the website
+
+#### Challenges
+
+- Understand the code and the datasets for the code analysis
+
+#### Progress
+
+- First draft of the website, with charts using the code of the notebooks and plotly

@@ -197,7 +197,12 @@ reformatting columns, or filtering based on age.
 - Create a clear strategy for handling large datasets.
 - Choose methods based on the research question, not complexity.
 - Communicate data limitations clearly.
-  
+
+#### Ramon Colmenares
+
+- Understand the project, the used dataset and how to made a website that reflect all the progress
+- Made local experiments with the dataset and the notebooks
+
 ---
 
 ### Milestone 4
@@ -234,3 +239,8 @@ reformatting columns, or filtering based on age.
   sounding uncertain.
 - Get feedback on presentations and use it to get better at communicating in
   future projects
+
+#### Ramon Colmenares
+
+- Have a complete version of the website with all the received feedback
+- Analyze the differents communications approachs to contribute to the team
