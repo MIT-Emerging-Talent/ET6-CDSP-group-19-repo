@@ -123,6 +123,7 @@ messages will briefly present our main findings and invite recipients to explore
 our interactive website and GitHub repository. We will also include a summary PDF
 for those seeking additional detail and highlight our team’s diverse academic
 backgrounds and shared commitment to collaborative, impact-driven work.
+(PDF attached: [Barriers to Justice report][5])
 
 This personalized approach complements our digital strategy and helps ensure our
 research reaches those best positioned to apply its insights in advocacy, policy
@@ -131,6 +132,7 @@ development, and beyond.
 For the text drafts checkout this [Document][4]
 
 [4]:https://docs.google.com/document/d/1Avwb9M8sb1oPIryZJnwRTQ5xs7UzTmSVQUoEo652aZs/edit?tab=t.0
+[5]:https://github.com/user-attachments/files/21724683/Barriers.to.Justice.pdf
 
 ## What Do We Want Them to Learn?
 
