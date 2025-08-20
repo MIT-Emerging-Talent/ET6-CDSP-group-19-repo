@@ -354,6 +354,28 @@ in the available data.
 
 ---
 
+## Communication Strategy
+
+A dedicated communication strategy is described in
+[5_communication_strategy](5_communication_strategy/README.md)
+to ensure the research is effectively disseminated and utilized. The findings are
+intended to reach two main audiences: NGO professionals advocating for
+immigrant youth, and academic researchers focused on immigration policy.
+
+Multiple channels are used in this approach:  
+
+- An interactive website is provided, featuring layered content such as
+  data, visualizations, summaries, and downloadable datasets.  
+- Infographics and summaries are shared on Medium to broaden public and
+  advocacy engagement.  
+- Academic papers and direct outreach are conducted to connect with
+  relevant organizations.
+
+By these means, evidence is made accessible and actionable to support
+advocacy, policy, and further research.
+
+---
+
 ## Technical Implementation
 
 ### Technologies Used
