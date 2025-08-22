@@ -283,6 +283,45 @@ This analytical approach was shaped by several constraints and design decisions:
 
 ---
 
+## Technical Implementation
+
+### Technologies Used
+
+The data analysis was performed using the following technologies:
+
+- **Python 3.8+**: Core programming language
+- **Jupyter Notebooks**: Interactive analysis environment
+- **pandas 1.3.0+**: Data manipulation and analysis
+- **numpy 1.20.0+**: Numerical operations
+- **matplotlib 3.4.0+**: Data visualization
+- **matplotlib.dates**: Handling dates in visualizations
+- **seaborn**: Statistical data visualization (built on matplotlib)
+- **statsmodels**: Statistical modeling and hypothesis testing
+- **scipy**: Scientific computing and advanced statistical functions
+- **scikit-learn 0.24.0+**: Data splitting (train_test_split) and
+  classification metrics(accuracy_score, roc_auc_score)
+
+### Development Environment and Tools
+
+- **Version Control**: Git with GitHub  
+- **Code Editor**: Visual Studio Code (VSCode) with Jupyter extension  
+- **Analysis Environment**: Jupyter Notebooks (opened and edited via VSCode)  
+- **Collaboration Tools**: Slack, GitHub Issues, Google Drive, Google Docs  
+- **Documentation**: Markdown  
+
+### Reproducibility
+
+To reproduce the analysis:
+
+1. Clone this repository
+2. Download the datasets from the [Google Drive link](https://drive.google.com/drive/u/2/folders/1gv42BRnm6blapzoDEbYbFf6M1IXZJXcL)
+3. Place dataset files in the `4_data_analysis/` directory
+4. Run the Jupyter notebooks in sequence
+
+📌 For detailed setup instructions, see [4_data_analysis/README.md](4_data_analysis/README.md).
+
+---
+
 ## Key Findings
 
 ![key_findings_image](readme_visuals/key_findings_image.png)
@@ -354,67 +393,6 @@ in the available data.
 
 ---
 
-## Communication Strategy
-
-A dedicated communication strategy is described in
-[5_communication_strategy](5_communication_strategy/README.md)
-to ensure the research is effectively disseminated and utilized. The findings are
-intended to reach two main audiences: NGO professionals advocating for
-immigrant youth, and academic researchers focused on immigration policy.
-
-Multiple channels are used in this approach:  
-
-- An interactive website is provided, featuring layered content such as
-  data, visualizations, summaries, and downloadable datasets.  
-- Infographics and summaries are shared on Medium to broaden public and
-  advocacy engagement.  
-- Academic papers and direct outreach are conducted to connect with
-  relevant organizations.
-
-By these means, evidence is made accessible and actionable to support
-advocacy, policy, and further research.
-
----
-
-## Technical Implementation
-
-### Technologies Used
-
-The data analysis was performed using the following technologies:
-
-- **Python 3.8+**: Core programming language
-- **Jupyter Notebooks**: Interactive analysis environment
-- **pandas 1.3.0+**: Data manipulation and analysis
-- **numpy 1.20.0+**: Numerical operations
-- **matplotlib 3.4.0+**: Data visualization
-- **matplotlib.dates**: Handling dates in visualizations
-- **seaborn**: Statistical data visualization (built on matplotlib)
-- **statsmodels**: Statistical modeling and hypothesis testing
-- **scipy**: Scientific computing and advanced statistical functions
-- **scikit-learn 0.24.0+**: Data splitting (train_test_split) and
-  classification metrics(accuracy_score, roc_auc_score)
-
-### Development Environment and Tools
-
-- **Version Control**: Git with GitHub  
-- **Code Editor**: Visual Studio Code (VSCode) with Jupyter extension  
-- **Analysis Environment**: Jupyter Notebooks (opened and edited via VSCode)  
-- **Collaboration Tools**: Slack, GitHub Issues, Google Drive, Google Docs  
-- **Documentation**: Markdown  
-
-### Reproducibility
-
-To reproduce the analysis:
-
-1. Clone this repository
-2. Download the datasets from the [Google Drive link](https://drive.google.com/drive/u/2/folders/1gv42BRnm6blapzoDEbYbFf6M1IXZJXcL)
-3. Place dataset files in the `4_data_analysis/` directory
-4. Run the Jupyter notebooks in sequence
-
-📌 For detailed setup instructions, see [4_data_analysis/README.md](4_data_analysis/README.md).
-
----
-
 ## Future Work & Recommendations
 
 Based on the findings, several directions for future research and policy
@@ -436,6 +414,41 @@ recommendations emerge:
 
 📌 For comprehensive methodological details and additional recommendations:
 [4_data_analysis](4_data_analysis/README.md)
+
+---
+
+## Communication Strategy
+
+A dedicated communication strategy is described to ensure the research is
+effectively disseminated and utilized. The findings are
+intended to reach two main audiences: NGO professionals advocating for
+immigrant youth, and academic researchers focused on immigration policy.
+
+Multiple channels are used in this approach:  
+
+- An interactive website is provided, featuring layered content such as
+  data, visualizations, summaries, and downloadable datasets.  
+- Infographics and summaries are shared on Medium to broaden public and
+  advocacy engagement.  
+- Academic papers and direct outreach to relevant organizations are conducted
+  via our group email [barrierstojustice.mit@gmail.com](mailto:barrierstojustice.mit@gmail.com).
+
+By these means, evidence is made accessible and actionable to support
+advocacy, policy, and further research.
+
+📌 Detailed strategy can be found in [5_communication_strategy](5_communication_strategy/README.md).
+
+---
+
+## Final Presentation
+
+Our final presentation summarizes our project, communication strategy, and key learnings.
+
+- [View the final presentation slides here](https://onedrive.live.com/personal/a6685e9269526e5e/_layouts/15/Doc.aspx?sourcedoc=%7B289d74c0-9e30-4e99-9cd1-f999e3c4e840%7D&action=default&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3AvYy9hNjY4NWU5MjY5NTI2ZTVlL0VjQjBuU2d3bnBsT25OSDVtZVBFNkVBQkxyS1ZmOE1qVGUyT3pxeDRVSlFFd3c_ZT15S0NRc1I&slrid=9759bea1-80fa-9000-e64e-f0fd04a9dcef&originalPath=aHR0cHM6Ly8xZHJ2Lm1zL3AvYy9hNjY4NWU5MjY5NTI2ZTVlL0VjQjBuU2d3bnBsT25OSDVtZVBFNkVBQkxyS1ZmOE1qVGUyT3pxeDRVSlFFd3c_cnRpbWU9Y0VJbnZMamgzVWc&CID=303c937a-58f6-40de-bfb3-532e846ee3bf&_SRM=0:G:45&file=Data_Detectives_Immigration_Presentation_copy.pptx)
+
+📌 For preparation materials and scripts, see: [6_final_presentation](6_final_presentation/README.md)
+
+---
 
 ---
 
