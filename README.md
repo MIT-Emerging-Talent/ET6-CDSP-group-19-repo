@@ -450,8 +450,6 @@ Our final presentation summarizes our project, communication strategy, and key l
 
 ---
 
----
-
 ## Contributors
 
 This research was conducted through collaborative efforts by a multidisciplinary
