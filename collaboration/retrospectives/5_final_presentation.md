@@ -121,4 +121,26 @@ we've learned from working together.
 - I developed better collaboration skills by supporting team preparation efforts.
 - My ability to communicate technical concepts to diverse audiences grew.
 
-#### Member2
+### Muhammad Shahroz
+
+#### Contributions
+
+- Conducted peer reviews on written material and presentation slides, ensuring
+  clarity and accuracy.
+- Provided constructive feedback to help refine project deliverables.
+- Supported the team by checking for consistency in documentation and shared resources.
+
+#### Challenges
+
+- Balancing peer review responsibilities with my own individual tasks sometimes
+  created time constraints.
+- Reviewing highly technical material for audience accessibility was not always straightforward.
+- Ensuring my feedback added real value without overlapping with what others had
+  already suggested was challenging.
+
+#### Progress
+
+- My peer review work improved my attention to detail and critical evaluation skills.
+- I became more confident in giving and receiving feedback in a collaborative setting.
+- I gained stronger skills in reviewing technical content from the perspective
+  of diverse audiences.

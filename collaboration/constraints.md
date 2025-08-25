@@ -275,3 +275,27 @@ can be slow or difficult to work with.
 - Have limited time due to other courses and work.
 - No prior experience with visualization techniques outside of Python
 - Had to learn more about plotly
+
+---
+
+## Milestone 5
+
+### Individual Constraints
+
+#### Banu Ozyilmaz
+
+- I have very limited time due to other commitments.
+- The audience will have mixed backgrounds, requiring careful language choices.
+
+#### Muhammet Ali Isik
+
+- Very limited time due to coursework, another group project, and personal commitments
+  after moving and handling paperwork.
+- Need to learn how to set and manage my schedule more efficiently while balancing
+  multiple projects.
+
+#### Muhammad Shahroz
+
+- My time is limited because of other responsibilities.
+- I need to consider that my audience may not have the same background as me.
+- I need to manage my schedule effectively to balance different tasks and projects.
