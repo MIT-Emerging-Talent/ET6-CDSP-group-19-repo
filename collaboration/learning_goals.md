@@ -245,3 +245,36 @@ reformatting columns, or filtering based on age.
 
 - Have a complete version of the website with all the received feedback
 - Analyze the differents communications approachs to contribute to the team
+
+#### Banu Ozyilmaz
+
+- I want to get better at explaining complex results in simple and clear language.
+- I want to learn how to choose and explain the best way to share our message.  
+- I want to practice how to talk about uncertainty honestly but clearly.  
+- I want to improve my skills using visuals like charts, icons, and layout to help
+  people understand better.  
+
+---
+
+### Milestone 4
+
+#### Banu Ozyilmaz
+
+- I want to improve my ability to present technical work to different audiences.
+- Learning how to summarize complex projects in simple, clear language is important
+  for my development.
+- Practicing honest reflection on successes and failures will help me grow professionally.
+
+#### Muhammet Ali Isik
+
+- Improve at reviewing, understanding, and explaining complex topics in programming
+  and data science.
+- Learn to summarize complex projects in clear and simple language.
+- Develop skills in summarizing and presenting projects as part of a team.
+
+#### Muhammad Shahroz
+
+- Improve my ability to explain complex topics to people with different levels of
+  knowledge.
+- Get better at summarizing large projects and presenting the main ideas clearly.
+- Practice reflecting on my work to see what went well and what I can improve.
