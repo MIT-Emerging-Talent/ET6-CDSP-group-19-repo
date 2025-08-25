@@ -11,17 +11,18 @@ Cleaned datasets are stored externally due to size constraints:
 
 Each notebook processes one core EOIR table:
 
-| Notebook | Description |
-|----------|-------------|
-| **`clean_tbl_JuvenileHistory.ipynb`** | Extracts the list of juvenile case
-IDs from the juvenile history table for downstream filtering. |
-| **`clean_A_TblCase.ipynb`** | Cleans the main case table, filters to juvenile
-cases, standardizes categorical values, and parses date fields. |
-| **`clean_B_TblProceeding.ipynb`** | Cleans the proceeding table, filters to
-juvenile-related proceedings, standardizes categories, and parses dates. |
-| **`clean_tbl_RepsAssigned.ipynb`** | Cleans the legal representation table,
-filters to juvenile cases with `STRATTYTYPE = "ALIEN"`, standardizes categories,
-parses dates, and documents the representation identification logic. |
+<!-- markdownlint-disable MD013 -->
+<!--
+MD013 (line-length rule) is disabled because Markdown tables require each row to be a single, continuous line for proper rendering. Disabling MD013 ensures the table renders as intended, even if some lines exceed the typical line length limits.
+-->
+| Notebook                        | Description                                                                                                                                                                                                                   |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **`clean_tbl_JuvenileHistory.ipynb`** | Extracts the list of juvenile case IDs from the juvenile history table for downstream filtering.                                                                                                  |
+| **`clean_A_TblCase.ipynb`**           | Cleans the main case table, filters to juvenile cases, standardizes categorical values, and parses date fields.                                                                                  |
+| **`clean_B_TblProceeding.ipynb`**     | Cleans the proceeding table, filters to juvenile-related proceedings, standardizes categories, and parses dates.                                                                                 |
+| **`clean_tbl_RepsAssigned.ipynb`**    | Cleans the legal representation table, filters to juvenile cases with `STRATTYTYPE = "ALIEN"`, standardizes categories, parses dates, and documents the representation identification logic.       |
+
+<!-- markdownlint-enable MD013 -->
 
 ## General Cleaning Workflow
 

@@ -16,7 +16,7 @@ new contributors to quickly understand our group’s processes.
 | [Milestone 2](milestone_2_meetings.md) | Meeting 6, Meeting 7, Meeting 8   |
 | [Milestone 3](milestone_3_meetings.md) | Meeting 9, Meeting 10, Meeting 11, Meeting 12, Meeting 13|
 | [Milestone 4](milestone_4_meetings.md) | Meeting 14, Meeting 15, Meeting 16|
-| [Milestone 5](milestone_5_meetings.md) | *(To be added)*                  |
+| [Milestone 5](milestone_5_meetings.md) | Meeting 17                        |
 
 ---
 

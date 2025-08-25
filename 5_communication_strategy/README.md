@@ -117,13 +117,14 @@ intended audiences. Direct outreach bridges this discovery gap by ensuring our
 work reaches key organizations and researchers who can benefit from and build
 upon our findings.
 
-To support this effort, we plan to contact key organizations, particularly KIND and
-researchers focused on immigration policy, through personalized emails. These
-messages will briefly present our main findings and invite recipients to explore
-our interactive website and GitHub repository. We will also include a summary PDF
+To support this effort, we plan to contact key organizations, particularly KIND
+and researchers focused on immigration policy, through personalized emails sent
+from our group email address: [barrierstojustice.mit.gmail.com](mailto:barrierstojustice.mit.gmail.com).
+
+These messages will briefly present our main findings and invite recipients to explore
+our interactive website and GitHub repository. We will also include [a summary PDF][5]
 for those seeking additional detail and highlight our team’s diverse academic
 backgrounds and shared commitment to collaborative, impact-driven work.
-(PDF attached: [Barriers to Justice report][5])
 
 This personalized approach complements our digital strategy and helps ensure our
 research reaches those best positioned to apply its insights in advocacy, policy
